@@ -1,0 +1,197 @@
+[
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All mammals have fur.",
+      "Dogs are mammals.",
+      "Dogs have fur.",
+      "Cats are mammals.",
+      "Cats have fur.",
+      "Horses are mammals.",
+      "Horses have fur.",
+      "Bats are mammals.",
+      "Bats have fur.",
+      "Snake is an animal.",
+      "Snake does not have fur."
+    ],
+    "Hypothesis": [
+      "All animals have fur."
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All mammals have fur.",
+      "Dogs are mammals.",
+      "Dogs have fur.",
+      "Cats are mammals.",
+      "Cats have fur.",
+      "Horses are mammals.",
+      "Horses have fur.",
+      "Bats are mammals.",
+      "Bats have fur.",
+      "Snake is an animal.",
+      "Snake does not have fur."
+    ],
+    "Hypothesis": [
+      "All mammals do not have fur."
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All mammals have fur.",
+      "Dogs are mammals.",
+      "Dogs have fur.",
+      "Cats are mammals.",
+      "Cats have fur.",
+      "Horses are mammals.",
+      "Horses have fur.",
+      "Bats are mammals.",
+      "Bats have fur.",
+      "Snake is an animal.",
+      "Snake does not have fur."
+    ],
+    "Hypothesis": [
+      "Snakes have fur."
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All insects have six legs.",
+      "Spiders are not insects.",
+      "Spiders have eight legs.",
+      "Ant is an insect."
+    ],
+    "Hypothesis": [
+      "All insects have eight legs."
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All insects have six legs.",
+      "Spiders are not insects.",
+      "Spiders have eight legs.",
+      "Ant is an insect."
+    ],
+    "Hypothesis": [
+      "Spiders are insects."
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All insects have six legs.",
+      "Spiders are not insects.",
+      "Spiders have eight legs.",
+      "Ant is an insect."
+    ],
+    "Hypothesis": [
+      "Ants have six legs."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All birds can generally fly.",
+      "Penguins are birds.",
+      "Penguins cannot fly.",
+      "Flying fish are not birds.",
+      "Flying fish can fly."
+    ],
+    "Hypothesis": [
+      "All birds except snakes can fly."
+    ],
+    "Label": [
+      "Undetermined"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All birds can generally fly.",
+      "Penguins are birds.",
+      "Penguins cannot fly.",
+      "Flying fish are not birds.",
+      "Flying fish can fly."
+    ],
+    "Hypothesis": [
+      "Penguins can fly."
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All birds can generally fly.",
+      "Penguins are birds.",
+      "Penguins cannot fly.",
+      "Flying fish are not birds.",
+      "Flying fish can fly."
+    ],
+    "Hypothesis": [
+      "Flying fish and all birds except penguis can fly."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All dogs are animals.",
+      "All cats are animals.",
+      "Dogs and cats are not the same.",
+      "Dogs normally bark.",
+      "Cats normally meow."
+    ],
+    "Hypothesis": [
+      "Animals other than dogs and cats do not bark or meow."
+    ],
+    "Label": [
+      "True"
+    ]
+  }
+]

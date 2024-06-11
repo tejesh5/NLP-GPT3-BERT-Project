@@ -1,0 +1,78 @@
+[
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Disjunctive syllogism",
+    "logic_type_code": "P4",
+    "Premise": [
+      "I will choose corn or I will choose soup.",
+      "I will not choose corn."
+    ],
+    "Hypothesis": [
+      "Therefore, I will choose soup."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Disjunctive syllogism",
+    "logic_type_code": "P4",
+    "Premise": [
+      "The food is Halal or it is pork",
+      "The food is not Halal"
+    ],
+    "Hypothesis": [
+      "Therefore, the food is pork"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Disjunctive syllogism",
+    "logic_type_code": "P4",
+    "Premise": [
+      "The kid want to become a Doctor or an Engineer",
+      "The kid did not become a Doctor"
+    ],
+    "Hypothesis": [
+      "Therefore, The kid is an Mechanic"
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Disjunctive syllogism",
+    "logic_type_code": "P4",
+    "Premise": [
+      "Either Frank want to pursue PhD or works in a job",
+      "Frank is pursuing PhD"
+    ],
+    "Hypothesis": [
+      "Therefore, Frank is not working in a job"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Disjunctive syllogism",
+    "logic_type_code": "P4",
+    "Premise": [
+      "The types of cake Jane Doe eats is Chocolate Truffle or Vanilla",
+      "Jane Doe did not eat Chocolate Truffle"
+    ],
+    "Hypothesis": [
+      "Therefore, Jane Doe ate the Vanilla Cake"
+    ],
+    "Label": [
+      "True"
+    ]
+  }
+]
+  

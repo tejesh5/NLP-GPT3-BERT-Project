@@ -1,0 +1,78 @@
+[
+  {
+    "logic_type": "First Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+      "If cars are Tesla then phones are Iphones",
+      "All cars are Tesla"
+    ],
+    "Hypothesis": [
+      "Therefore, All phones are not Iphones"
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "First Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+      "If clothes are sweater, then season is winter",
+      "All clothes are sweater"
+    ],
+    "Hypothesis": [
+      "Therefore, All seasons is winters"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "First Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+      "If drink is soda, then food is burger",
+      "All Drinks are soda"
+    ],
+    "Hypothesis": [
+      "All food are not burgers."
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "First Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+      "If birds can fly, then animals can run",
+      "Birds can fly"
+    ],
+    "Hypothesis": [
+      "Therefore, Animals can run."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "First Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+      "If Earth goes around the Sun, then Sun is the center of solar system",
+      "The Earth goes around the Sun"
+    ],
+    "Hypothesis": [
+      "Therefore, Sun is the center of the solar system"
+    ],
+    "Label": [
+      "True"
+    ]
+  }
+]
+  

@@ -1,0 +1,87 @@
+[
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Democrats are normally left.",
+      "Republicans are normally not left."
+    ],
+    "Hypothesis": [
+      "Democrats who are not republicans are left.",
+      "Republicans who are not democrats are not left."
+    ],
+    "Label": [
+      "True",
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Birds can generally fly.",
+      "Animals can generally not fly"
+    ],
+    "Hypothesis": [
+      "Birds that are not animals can fly",
+      "Animals that are not birds can fly."
+    ],
+    "Label": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Italians generally love football.",
+      "Romans generally don't love football."
+    ],
+    "Hypothesis": [
+      "Italians that are not Romans love football.",
+      "Romans that are not Italians don't love football."
+    ],
+    "Label": [
+      "True",
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Yatch normally hosts party.",
+      "Boat normally doesn't host party. "
+    ],
+    "Hypothesis": [
+      "Yatch that are not boats host parties.",
+      "Boats that are not yatch don't host parties."
+    ],
+    "Label": [
+      "True",
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Developers generally code.",
+      "Managers generally don't code."
+    ],
+    "Hypothesis": [
+      "Developers who are not managers code.",
+      "Managers who are not developers code."
+    ],
+    "Label": [
+      "True",
+      "True"
+    ]
+  }
+]

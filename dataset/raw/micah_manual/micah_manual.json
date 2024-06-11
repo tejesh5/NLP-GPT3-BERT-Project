@@ -1,0 +1,609 @@
+[
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "Produce is normally green.",
+            "Fruits are produce.",
+            "Fruits are normally not green.",
+            "Pears are fruits.",
+            "Pears are normally green."
+        ],
+        "Hypothesis": [
+            "Produce other than fruit is green.",
+            "Pears are not green.",
+            "Fruits are not green."
+        ],
+        "Label": [
+            "True",
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "Classes are normally easy.",
+            "CSE classes are classes.",
+            "CSE classes are normally not easy.",
+            "CSE 101 classes are CSE classes.",
+            "CSE 101 classes are normally easy."
+        ],
+        "Hypothesis": [
+            "Classes other than CSE classes are easy.",
+            "CSE classes other than CSE 101 classes are not easy.",
+            "CSE 101 classes are easy."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "Food is normally tasty.",
+            "Vegetables are food.",
+            "Vegetables are normally not tasty.",
+            "Carrots are vegetables.",
+            "Carrots are normally tasty."
+        ],
+        "Hypothesis": [
+            "Food other than vegetables is tasty.",
+            "Vegetables are not tasty.",
+            "Carrots are tasty."
+        ],
+        "Label": [
+            "True",
+            "False",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "People normally do not have good voices.",
+            "Singers are people.",
+            "Singers normally have good voices.",
+            "Country singers are singers.",
+            "Country singers normally do not have good voices."
+        ],
+        "Hypothesis": [
+            "People other than singers do not have good voices.",
+            "Singers other than country singers have good voices.",
+            "Country singers do not have good voices."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "Books are normally not boring.",
+            "Textbooks are books.",
+            "Textbooks are normally boring.",
+            "Computer science textbooks are textbooks.",
+            "Computer science textbooks are normally not boring."
+        ],
+        "Hypothesis": [
+            "Books other than textbooks are not boring.",
+            "Textbooks other than computer science textbooks are boring.",
+            "English textbooks are boring."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Produce is normally green.",
+            "Fruits are produce.",
+            "Fruits are normally not green.",
+            "Carrots are produce.",
+            "Carrots are normally not green.",
+            "Pears are fruits.",
+            "Pears are normally green."
+        ],
+        "Hypothesis": [
+            "Produce other than fruits and carrots are green.",
+            "Fruits other than pears are green.",
+            "Carrots are not green.",
+            "Pears are green.",
+            "Vegetables are green."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "True",
+            "True",
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Classes are normally easy",
+            "CSE classes are classes.",
+            "CSE classes are normally not easy.",
+            "MAT classes are classes.",
+            "MAT classes are normally not easy.",
+            "CSE 101 classes are CSE classes.",
+            "CSE 101 classes are normally easy."
+        ],
+        "Hypothesis": [
+            "Classes other than CSE classes and MAT classes are easy.",
+            "CSE classes are not easy.",
+            "MAT classes are not easy.",
+            "CSE 101 classes are not easy."
+        ],
+        "Label": [
+            "True",
+            "False",
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Food is normally tasty.",
+            "Vegetables are food.",
+            "Vegetables are normally not tasty.",
+            "Tomatoes are food.",
+            "Tomatoes are normally not tasty.",
+            "Carrots are vegetables.",
+            "Carrots are normally tasty."
+        ],
+        "Hypothesis": [
+            "Food other than vegetables and tomatoes is tasty.",
+            "Vegetables other than carrots are not tasty.",
+            "Tomatoes are tasty.",
+            "Carrots are not tasty."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "People normally do not have good voices.",
+            "Singers are people.",
+            "Singers normally have good voices.",
+            "Speakers are people.",
+            "Speakers normally have good voices.",
+            "Country singers are singers.",
+            "Country singers normally do not have good voices.",
+            "John is a singer"
+        ],
+        "Hypothesis": [
+            "People have good voices.",
+            "Singers other than country singers have good voices.",
+            "Speakers have good voices.",
+            "Country singers have good voices.",
+            "John has a good voice"
+        ],
+        "Label": [
+            "False",
+            "True",
+            "True",
+            "False",
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Books are normally not boring.",
+            "Textbooks are books.",
+            "Textbooks are normally boring.",
+            "Biographies are books.",
+            "Biographies are normally boring.",
+            "Computer science textbooks are textbooks.",
+            "Computer science textbooks are normally not boring."
+        ],
+        "Hypothesis": [
+            "Books other than textbooks and biographies are not boring.",
+            "Textbooks other than computer science textbooks are boring.",
+            "Biographies are boring.",
+            "Computer science textbooks are not boring."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "True",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Multiple Inheritance",
+        "logic_type_code": "B4",
+        "Premise": [
+            "Nice animals are normally pets.",
+            "Loud animals are normally wild animals",
+            "Pets are normally hairy.",
+            "Wild animals are normally hairy.",
+            "Pets are not wild animals."
+        ],
+        "Hypothesis": [
+            "Nice animals are not hairy.",
+            "Loud animals which are not nice animals are wild animals.",
+            "Loud animals, nice animals, pets, and wild animals are hairy."
+        ],
+        "Label": [
+            "False",
+            "True",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Multiple Inheritance",
+        "logic_type_code": "B4",
+        "Premise": [
+            "Mammals normally are land animals.",
+            "Sea creatures normally are gilled animals.",
+            "Mammals are normally alive.",
+            "Sea creatures are normally alive.",
+            "Land animals are not gilled animals."
+        ],
+        "Hypothesis": [
+            "Mammals which are not sea creatures are land animals.",
+            "Mammals are gilled animals.",
+            "Mammals, sea creatures, land animals, and gilled animals are alive."
+        ],
+        "Label": [
+            "True",
+            "False",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Multiple Inheritance",
+        "logic_type_code": "B4",
+        "Premise": [
+            "Large boxes are normally heavy boxes.",
+            "Empty boxes are normally light boxes.",
+            "Heavy boxes are made of cardboard.",
+            "Light boxes are made of cardboard.",
+            "Heavy boxes are not light boxes."
+        ],
+        "Hypothesis": [
+            "Large boxes which are not empty boxes are heavy boxes.",
+            "Empty boxes which are not large boxes are light boxes.",
+            "Large boxes, empty boxes, heavy boxes, and light boxes are made of cardboard."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Multiple Inheritance",
+        "logic_type_code": "B4",
+        "Premise": [
+            "Athletes are normally jocks.",
+            "Students are normally nerds.",
+            "Jocks are normally passionate.",
+            "Nerds are normally passionate.",
+            "Jocks are not nerds"
+        ],
+        "Hypothesis": [
+            "Athletes who are not students are jocks.",
+            "Athletes are nerds.",
+            "Athletes, students, jocks, and nerds are not passionate."
+        ],
+        "Label": [
+            "True",
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Multiple Inheritance",
+        "logic_type_code": "B4",
+        "Premise": [
+            "Tall people are normally basketball players.",
+            "Strong people are normally football players.",
+            "Basketball players play sports.",
+            "Football players play sports.",
+            "Basketball players are not football players."
+        ],
+        "Hypothesis": [
+            "Tall people are basketball players.",
+            "Strong people are football players.",
+            "Tall people are not strong people.",
+            "Tall people and strong people play sports."
+        ],
+        "Label": [
+            "Undetermined",
+            "Undetermined",
+            "Undetermined",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All dogs cannot fly.",
+            "Fido is a dog."
+        ],
+        "Hypothesis": [
+            "Fido cannot fly."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All bachelors are not married.",
+            "John is a bachelor."
+        ],
+        "Hypothesis": [
+            "John is not married."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All loyal husbands do not cheat.",
+            "John is a husband."
+        ],
+        "Hypothesis": [
+            "If John is not loyal, he cheats."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All greedy kings are wealthy.",
+            "Richard is a king."
+        ],
+        "Hypothesis": [
+            "If Richard is wealthy, he is greedy."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All pilots fly planes",
+            "Sara is a pilot."
+        ],
+        "Hypothesis": [
+            "Sara flies planes."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All cats enjoy sleeping.",
+            "Garfield is a cat."
+        ],
+        "Hypothesis": [
+            "Garfield does not enjoy sleeping."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If its raining, we will stay inside.",
+            "If its sunny, we will go for a walk.",
+            "Its raining or sunny."
+        ],
+        "Hypothesis": [
+            "We will stay inside."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If I am tired, I drink coffee.",
+            "If I am thirsty, I drink water.",
+            "I am tired or thirsty."
+        ],
+        "Hypothesis": [
+            "I drink coffee or water."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If the coin is heads up, I win.",
+            "If the coin is heads down, I lose.",
+            "The coin is either heads up or heads down."
+        ],
+        "Hypothesis": [
+            "I win or I lose."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If I passed, I am happy.",
+            "If I failed, I am sad.",
+            "I failed or I passed."
+        ],
+        "Hypothesis": [
+            "I am not happy and I am not sad."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If its morning, I eat breakfast.",
+            "If its evening, I eat dinner.",
+            "Its morning or evening."
+        ],
+        "Hypothesis": [
+            "I eat breakfast."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If its raining, we will stay inside.",
+            "If its sunny, we will go for a walk.",
+            "I will not stay inside or I will not go for a walk."
+        ],
+        "Hypothesis": [
+            "Its raining and its sunny."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If I am tired, I drink coffee.",
+            "If I am thirsty, I drink water.",
+            "I don't drink coffee or I don't drink water."
+        ],
+        "Hypothesis": [
+            "I am tired and I am thirsty."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If the coin is heads up, I win.",
+            "If the coin is heads down, I lose.",
+            "I don't win or I don't lose."
+        ],
+        "Hypothesis": [
+            "The coin is not heads up or the coin is not heads down."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If I passed, I am happy.",
+            "If I failed, I am sad.",
+            "I am not happy or I am not sad."
+        ],
+        "Hypothesis": [
+            "I did not pass or I did not fail."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If its morning, I eat breakfast.",
+            "If its evening, I eat dinner.",
+            "I do not eat breakfast or I do not eat dinner."
+        ],
+        "Hypothesis": [
+            "Its not morning"
+        ],
+        "Label": [
+            "Undefined"
+        ]
+    }
+]

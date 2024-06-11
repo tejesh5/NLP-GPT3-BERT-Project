@@ -1,0 +1,703 @@
+﻿[
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The sky is blue."
+        ],
+        "Hypothesis": [
+            "It is not known whether the grass is green."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The moon orbits around Earth."
+        ],
+        "Hypothesis": [
+            "It is not known whether Earth orbits around the sun."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All mammals are animals."
+        ],
+        "Hypothesis": [
+            "It is not known whether all animals are mammals."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The United States is a country."
+        ],
+        "Hypothesis": [
+            "It is not known whether the United Kingdom is a country."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "2+2=4"
+        ],
+        "Hypothesis": [
+            "It is not known whether 3+3=6."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All triangles have three sides."
+        ],
+        "Hypothesis": [
+            "It is not known whether all polygons have four sides."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The Earth is round."
+        ],
+        "Hypothesis": [
+            "It is not known whether the Earth is flat."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Humans need oxygen to live."
+        ],
+        "Hypothesis": [
+            "It is not known whether humans need food to live."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All triangles have three sides."
+        ],
+        "Hypothesis": [
+            "Rectangles have four sides."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Water is necessary for human life."
+        ],
+        "Hypothesis": [
+            "It is not known whether air is necessary for human life."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The sun is a star."
+        ],
+        "Hypothesis": [
+            "It is not known whether the Earth is a planet."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The sun is larger than the moon."
+        ],
+        "Hypothesis": [
+            "It is not known whether the moon is larger than the Earth."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Dogs are animals."
+        ],
+        "Hypothesis": [
+            "It is not known whether cats are animals."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The square root of 4 is 2."
+        ],
+        "Hypothesis": [
+            "It is not known whether the square root of 9 is 3."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All plants need sunlight to grow."
+        ],
+        "Hypothesis": [
+            "It is not known whether all plants need soil to grow."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All birds can fly."
+        ],
+        "Hypothesis": [
+            "It is not known whether all animals can fly."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Dogs are animals."
+        ],
+        "Hypothesis": [
+            "Tigers are animals."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The capital of the United States is Washington, D.C."
+        ],
+        "Hypothesis": [
+            "It is not known whether the capital of France is Paris."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The capital of Australia is Canberra."
+        ],
+        "Hypothesis": [
+            "It is not known whether the capital of New Zealand is Wellington."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All gases are invisible."
+        ],
+        "Hypothesis": [
+            "It is not known whether all liquids are invisible."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All dogs are mammals."
+        ],
+        "Hypothesis": [
+            "It is not known whether all mammals are dogs."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All dogs are animals."
+        ],
+        "Hypothesis": [
+            "It is not known whether all animals are dogs."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All cats are animals."
+        ],
+        "Hypothesis": [
+            "It is not known whether all animals are cats."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All animals are living beings."
+        ],
+        "Hypothesis": [
+            "It is not known whether all plants are living beings."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All living beings need oxygen to live."
+        ],
+        "Hypothesis": [
+            "It is not known whether all living beings need food to live."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All living beings need water to live."
+        ],
+        "Hypothesis": [
+            "It is not known whether all living beings need air to live."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All planets orbit around a star."
+        ],
+        "Hypothesis": [
+            "It is not known whether all stars orbit around a planet."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The Earth is a planet."
+        ],
+        "Hypothesis": [
+            "It is not known whether the Moon is a planet."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The Earth is larger than the Moon."
+        ],
+        "Hypothesis": [
+            "It is not known whether the Moon is larger than the Sun."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All stars are larger than all planets."
+        ],
+        "Hypothesis": [
+            "It is not known whether all planets are larger than all stars."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All galaxies are larger than all stars."
+        ],
+        "Hypothesis": [
+            "It is known that all stars are smaller than all galaxies."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All galaxies are larger than all planets."
+        ],
+        "Hypothesis": [
+            "It is not known whether all planets are larger than all galaxies."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The moon is a satellite of Earth."
+        ],
+        "Hypothesis": [
+            "It is known that Earth is a satellite of the sun."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Apples are fruits."
+        ],
+        "Hypothesis": [
+            "It is not known that bananas are fruits."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The United States has 50 states."
+        ],
+        "Hypothesis": [
+            "It is not known whether the United States has 51 states."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Roses are red."
+        ],
+        "Hypothesis": [
+            "It is not known whether violets are red."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Apples are fruits."
+        ],
+        "Hypothesis": [
+            "Oranges are fruits."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The Statue of Liberty is in New York Harbor."
+        ],
+        "Hypothesis": [
+            "It is known that the Golden Gate Bridge is in San Francisco."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The capital of the United States is Washington, D.C."
+        ],
+        "Hypothesis": [
+            "It is known that the capital of France is Paris."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The capital of California is Sacramento."
+        ],
+        "Hypothesis": [
+            "It is known that the capital of Florida is Tallahassee."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The capital of Massachusetts is Boston."
+        ],
+        "Hypothesis": [
+            "It is not known whether the capital of New Jersey is Trenton."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "One mile is equal to 5,280 feet."
+        ],
+        "Hypothesis": [
+            "It is not known whether one kilometer is equal to 1,000 meters."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The temperature at which water freezes is 32 degrees Fahrenheit."
+        ],
+        "Hypothesis": [
+            "It is known that the temperature at which water boils is 212 degrees Fahrenheit."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The United States is located in North America."
+        ],
+        "Hypothesis": [
+            "It is not known whether the United States is located in South America."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The Amazon River is located in South America."
+        ],
+        "Hypothesis": [
+            "It is known that the Nile River is located in Africa."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Mount Everest is the tallest mountain in the world."
+        ],
+        "Hypothesis": [
+            "It is not known whether Mount Kilimanjaro is the tallest mountain in the world."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The circumference of a circle is equal to 2 times pi times the radius."
+        ],
+        "Hypothesis": [
+            "It is known that the area of a circle is equal to pi times the radius squared."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The square root of 100 is rational."
+        ],
+        "Hypothesis": [
+            "It is known that the square root of 121 is irrational."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The square root of 144 is rational."
+        ],
+        "Hypothesis": [
+            "It is not known whether the square root of 169 is rational."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "The square root of 225 is rational."
+        ],
+        "Hypothesis": [
+            "It is known that the square root of 256 is irrational."
+        ],
+        "Label": [
+            "False"
+        ]
+    }
+
+]

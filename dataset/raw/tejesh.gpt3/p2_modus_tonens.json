@@ -1,0 +1,752 @@
+﻿[
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am feeling sick, then I will not go to school.",
+            "I went to school."
+        ],
+        "Hypothesis": [
+            "I am not feeling sick."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am feeling happy, then I will smile.",
+            "I am not smiling."
+        ],
+        "Hypothesis": [
+            "I am not feeling happy."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at home, then I will be in my room.",
+            "I am not in my room."
+        ],
+        "Hypothesis": [
+            "I am not at home."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the beach, then I will be in the water.",
+            "I am in the water."
+        ],
+        "Hypothesis": [
+            "I am at the beach."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am eating breakfast, then I will be sitting at the table.",
+            "I am not sitting at the table."
+        ],
+        "Hypothesis": [
+            "I am not eating breakfast."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If there is a fire, then the alarm will sound.",
+            "The alarm is not sounding."
+        ],
+        "Hypothesis": [
+            "There is no fire."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am watching a movie, then I will be sitting on the couch.",
+            "I am sitting on the couch."
+        ],
+        "Hypothesis": [
+            "I am watching a movie."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If it is sunny outside, then I will put on sunscreen.",
+            "I am putting on sunscreen."
+        ],
+        "Hypothesis": [
+            "It is sunny outside."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the park, then I will be on the swings.",
+            "I am not on the swings."
+        ],
+        "Hypothesis": [
+            "I am not at the park."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the store, then I will be buying groceries.",
+            "I am not buying groceries."
+        ],
+        "Hypothesis": [
+            "I am not at the store."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the library, then I will be studying.",
+            "I am not studying."
+        ],
+        "Hypothesis": [
+            "I am not at the library."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at work, then I will be at my desk.",
+            "I am not at my desk."
+        ],
+        "Hypothesis": [
+            "I am not at work."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the movies, then I will be eating popcorn.",
+            "I am not eating popcorn."
+        ],
+        "Hypothesis": [
+            "I am not at the movies."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am driving, then I will be in the car.",
+            "I am not in the car."
+        ],
+        "Hypothesis": [
+            "I am not driving."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the park, then I will be on the slide.",
+            "I am not on the slide."
+        ],
+        "Hypothesis": [
+            "I am not at the park."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the zoo, then I will be looking at the animals.",
+            "I am looking at the animals."
+        ],
+        "Hypothesis": [
+            "I am at the zoo."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the gym, then I will be working out.",
+            "I am not working out."
+        ],
+        "Hypothesis": [
+            "I am not at the gym."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the park, then I will be on the monkey bars.",
+            "I am not on the monkey bars."
+        ],
+        "Hypothesis": [
+            "I am not at the park."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the park, then I will be on the swings.",
+            "I am not on the swings."
+        ],
+        "Hypothesis": [
+            "I am not at the park."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the beach, then I will be in the water.",
+            "I am in the water."
+        ],
+        "Hypothesis": [
+            "I am at the beach."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the pool, then I will be swimming.",
+            "I am not swimming."
+        ],
+        "Hypothesis": [
+            "I am not at the pool."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the park, then I will be on the playground.",
+            "I am not on the playground."
+        ],
+        "Hypothesis": [
+            "I am not at the park."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the store, then I will be buying groceries.",
+            "I am not buying groceries."
+        ],
+        "Hypothesis": [
+            "I am not at the store."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the mall, then I will be shopping.",
+            "I am not shopping."
+        ],
+        "Hypothesis": [
+            "I am not at the mall."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the movies, then I will be watching a movie.",
+            "I am not watching a movie."
+        ],
+        "Hypothesis": [
+            "I am not at the movies."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the park, then I will be on the slide.",
+            "I am not on the slide."
+        ],
+        "Hypothesis": [
+            "I am at the park."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the park, then I will be on the swings.",
+            "I am on the swings."
+        ],
+        "Hypothesis": [
+            "I am at the park."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the park, then I will be on the monkey bars.",
+            "I am not on the monkey bars."
+        ],
+        "Hypothesis": [
+            "I am at the park."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the park, then I will be on the playground.",
+            "I am not on the playground."
+        ],
+        "Hypothesis": [
+            "I am at the park."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the beach, then I will be in the water.",
+            "I am not in the water."
+        ],
+        "Hypothesis": [
+            "I am at the beach."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the pool, then I will be swimming.",
+            "I am not swimming."
+        ],
+        "Hypothesis": [
+            "I am at the pool."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the park, then I will be on the swings.",
+            "I am on the swings."
+        ],
+        "Hypothesis": [
+            "I am at the park."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the beach, then I will be in the water.",
+            "I am not in the water."
+        ],
+        "Hypothesis": [
+            "I am at the beach."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am at the pool, then I will be swimming.",
+            "I am swimming."
+        ],
+        "Hypothesis": [
+            "I am at the pool."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If it is cold outside, then I will wear a coat.",
+            "I am not wearing a coat."
+        ],
+        "Hypothesis": [
+            "It is not cold outside."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am hungry, then I will make a sandwich.",
+            "I made a sandwich."
+        ],
+        "Hypothesis": [
+            "I am hungry."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am tired, then I will take a nap.",
+            "I am not taking a nap."
+        ],
+        "Hypothesis": [
+            "I am not tired."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am thirsty, then I will drink water.",
+            "I am not drinking water."
+        ],
+        "Hypothesis": [
+            "I am not thirsty."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am bored, then I will watch TV.",
+            "I am not watching TV."
+        ],
+        "Hypothesis": [
+            "I am not bored."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am sad, then I will cry.",
+            "I am not crying."
+        ],
+        "Hypothesis": [
+            "I am not sad."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am happy, then I will smile.",
+            "I am not smiling."
+        ],
+        "Hypothesis": [
+            "I am not happy."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am angry, then I will yell.",
+            "I am not yelling."
+        ],
+        "Hypothesis": [
+            "I am not angry."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am stressed, then I will take a break.",
+            "I did not take a break."
+        ],
+        "Hypothesis": [
+            "I am not stressed."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am sleepy, then I will go to bed.",
+            "I did not go to bed."
+        ],
+        "Hypothesis": [
+            "I am not sleepy."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am cold, then I will put on a coat.",
+            "I am not wearing a coat."
+        ],
+        "Hypothesis": [
+            "I am not cold."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am hot, then I will take off my coat.",
+            "I am not taking off my coat."
+        ],
+        "Hypothesis": [
+            "I am not hot."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am cold, then I will turn on the heater.",
+            "I am not cold."
+        ],
+        "Hypothesis": [
+            "Therefore, I will not turn on the heater."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am hot, then I will turn on the air conditioner.",
+            "It is not hot."
+        ],
+        "Hypothesis": [
+            "Therefore, I will not turn on the air conditioner."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am cold, then I will turn on the heater.",
+            "The heater is on."
+        ],
+        "Hypothesis": [
+            "I am cold."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If I am hot, then I will take a shower.",
+            "I did not take a shower."
+        ],
+        "Hypothesis": [
+            "I am not hot."
+        ],
+        "Label": [
+            "True"
+        ]
+    }
+]

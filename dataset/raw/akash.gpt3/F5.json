@@ -1,0 +1,152 @@
+[
+	{
+		"logic_type": "First Order Logic",
+		"logic_subtype": "Generalized Modus Ponens",
+		"logic_type_code": "F5",
+		"Premise": [
+		    "If it is raining, then the ground is wet",
+		    "It is raining"
+		],
+		  "Hypothesis": [
+		    "The ground is wet"
+		],
+		  "Label": [
+		    "True"
+		]
+	},
+	{
+		"logic_type": "First Order Logic",
+	    "logic_subtype": "Generalized Modus Ponens",
+	    "logic_type_code": "F5",
+	  	"Premise": [
+		    "If a person has the flu, then that person has a fever",
+		    "The person does not have a fever"
+		],
+		  "Hypothesis": [
+		    "The person does not have the flu"
+		],
+		  "Label": [
+		    "Undetermined"
+		]
+	},
+	{
+		"logic_type": "First Order Logic",
+		"logic_subtype": "Generalized Modus Ponens",
+		"logic_type_code": "F5",
+	  	"Premise": [
+		    "If a triangle has two equal sides, then it is an isosceles triangle",
+		    "This triangle has two equal sides"
+	  	],
+		"Hypothesis": [
+		    "This triangle is an isosceles triangle"
+	  	],
+	  	"Label": [
+	   	 	"True"
+	  	]
+	},
+	{
+		"logic_type": "First Order Logic",
+		"logic_subtype": "Generalized Modus Ponens",
+		"logic_type_code": "F5",
+	  	"Premise": [
+		    "If a person has the measles, then that person looks pink",
+		    "The person has the measles"
+	  	],
+	  	"Hypothesis": [
+	    	"The person looks pink"
+	 	],
+	  	"Label": [
+	    	"True"
+	  	]
+	},
+	{
+		"logic_type": "First Order Logic",
+		"logic_subtype": "Generalized Modus Ponens",
+		"logic_type_code": "F5",
+		"Premise": [
+			"If a cat is a mammal, then a cat has fur",
+			"This cat is a mammal"
+		],
+		"Hypothesis": [
+			"This cat has fur"
+		],
+		"Label": [
+			"True"
+		]
+	},
+	{
+		"logic_type": "First Order Logic",
+		"logic_subtype": "Generalized Modus Ponens",
+		"logic_type_code": "F5",
+		"Premise": [
+			"If an animal has fur, then that animal is a mammal",
+			"This animal has fur"
+		],
+		"Hypothesis": [
+			"This animal is a mammal"
+		],
+		"Label": [
+			"True"
+		]
+	},
+	{
+		"logic_type": "First Order Logic",
+		"logic_subtype": "Generalized Modus Ponens",
+		"logic_type_code": "F5",
+		"Premise": [
+			"If a person has the chickenpox, then that person is weak",
+			"The person has chickenpox"
+		],
+		"Hypothesis": [
+			"The person is not weak"
+		],
+		"Label": [
+			"False"
+		]
+	},
+	{
+		"logic_type": "First Order Logic",
+		"logic_subtype": "Generalized Modus Ponens",
+		"logic_type_code": "F5",
+		"Premise": [
+			"If a rectangle has four equal sides, then it is a square",
+			"This rectangle has four equal sides"
+		],
+		"Hypothesis": [
+			"This rectangle is not a square"
+		],
+		"Label": [
+			"False"
+		]
+	},
+	{
+		"logic_type": "First Order Logic",
+		"logic_subtype": "Generalized Modus Ponens",
+		"logic_type_code": "F5",
+		"Premise": [
+			"If a number is divisible by 6, then that number is divisible by 3",
+			"This number is divisible by 6"
+		],
+		"Hypothesis": [
+			"This number is divisible by 3"
+		],
+		"Label": [
+			"True"
+		]
+	},
+	{
+		"logic_type": "First Order Logic",
+		"logic_subtype": "Generalized Modus Ponens",
+		"logic_type_code": "F5",
+		"Premise": [
+			"If an angle is a right angle, then that angle is 90 degrees",
+			"This angle is a right angle"
+		],
+		"Hypothesis": [
+			"This angle is 90 degrees"
+		],
+		"Label": [
+			"True"
+		]
+	}
+]

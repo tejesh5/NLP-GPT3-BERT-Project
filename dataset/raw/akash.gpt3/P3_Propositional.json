@@ -1,0 +1,152 @@
+[
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If the moon is out, then it is nighttime",
+      "If it is nighttime, then the sun is not out"
+    ],
+    "Hypothesis": [
+      "Therefore, if the moon is out, then the sun is not out"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  { 
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If a cat is a mammal, then a cat has fur",
+      "If an animal has fur, then the animal is warm-blooded"
+    ],
+    "Hypothesis": [
+      "Therefore, if a cat is a mammal, then the cat is warm-blooded"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If a triangle has three sides, then a triangle has three angles",
+      "If a triangle has three angles, then a triangle is a three-sided polygon"
+    ],
+    "Hypothesis": [
+      "Therefore, if a triangle has three sides, then a triangle is a three-sided polygon"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If a person has the flu, then that person has a fever",
+      "If a person has a fever, then that person feels awful"
+    ],
+    "Hypothesis": [
+      "Therefore if a person has the flu, then that person feels awful"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If a cat has kittens, then the cat is a female",
+      "If the cat is a female, then the cat can have kittens"
+    ],
+    "Hypothesis": [
+      "Therefore if a cat can have kittens, then the cat is not a female"
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If a car has four wheels, then it is a vehicle",
+      "If it is a vehicle, then it can be driven on the road"
+    ],
+    "Hypothesis": [
+      "Therefore if a car has four wheels, then it can not be driven on the road"
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If a recipe calls for milk, then it contains dairy",
+      "If a recipe contains dairy, then it is not vegan"
+    ],
+    "Hypothesis": [
+      "Therefore if a recipe calls for milk, then it is not vegan"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If a plant needs water, then it is alive",
+      "If a plant is alive, then it can grow"
+    ],
+    "Hypothesis": [
+      "Therefore if a plant needs water, then it can not grow"
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+   {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If a metal is magnetic, then it is iron",
+      "If a metal is iron, then it is not gold"
+    ],
+    "Hypothesis": [
+      "Therefore if a metal is magnetic, then it is silver"
+    ],
+    "Label": [
+      "Undetermined"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If a substance is a solid, then it has a definite shape",
+      "If a substance has a definite shape, then it is not a liquid"
+    ],
+    "Hypothesis": [
+      "Therefore if a substance is a solid, then it is not a liquid"
+    ],
+    "Label": [
+      "True"
+    ]
+  }
+]

@@ -1,0 +1,174 @@
+ [
+      {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+          "All mammals are animals.",
+          "All animals are alive.",
+          "Dogs are mammals.",
+          "Dogs are alive."
+        ],
+        "Hypothesis": [
+          "All mammals are alive."
+        ],
+        "Label": [
+          "True"
+        ]
+      },
+      {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+          "All males have XY chromosomes.",
+          "All XY chromosome holders are human.",
+          "John is a male.",
+          "John is human."
+        ],
+        "Hypothesis": [
+          "John has XY chromosomes.",
+          "Males are human."
+        ],
+        "Label": [
+          "True",
+          "True"
+        ]},
+      {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+          "All birds have wings.",
+          "All animals with wings can fly.",
+          "Eagles are birds.",
+          "Eagles can fly."
+        ],
+        "Hypothesis": [
+          "All birds can fly.",
+          "Eagles have wings."
+        ],
+        "Label": [
+          "True",
+          "True"
+        ]},
+      {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+          "All living things need water to survive.",
+          "All plants are living things.",
+          "All plants need water to survive.",
+          "Trees are plants."
+        ],
+        "Hypothesis": [
+          "All living things do need water to survive."
+        ],
+        "Label": [
+          "False"
+        ]},
+      {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+          "All rocks are made of minerals.",
+          "All minerals are inorganic.",
+          "Sand is a rock.",
+          "Sand is inorganic."
+        ],
+        "Hypothesis": [
+          "All rocks are inorganic.",
+          "Sand is made of minerals."
+        ],
+        "Label": [
+          "True",
+          "True"
+        ]},
+        {
+          "logic_type": "Inheritance",
+          "logic_subtype": "Linear Inheritance",
+          "logic_type_code": "B1",
+          "Premise": [
+          "All rocks are made of minerals.",
+          "All minerals are inorganic.",
+          "Sand is a rock.",
+          "Sand is inorganic."
+        ],
+        "Hypothesis": [
+          "Granite is made of minerals."
+        ],
+        "Label": [
+          "Undetermined"
+        ]},
+      {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+          "All dogs are animals.",
+          "All animals are alive.",
+          "Poodle is a dog.",
+          "Poodle is alive."
+        ],
+        "Hypothesis": [
+          "All dogs are alive.",
+          "Poodle is an animal."
+        ],
+        "Label": [
+          "True",
+          "True"
+        ]},
+      {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+          "All plants are living things.",
+          "All living things need water to survive.",
+          "Cactus is a plant.",
+          "Cactus needs water to survive."
+        ],
+        "Hypothesis": [
+          "All plants need water to survive.",
+          "Cactus is a living thing."
+        ],
+        "Label": [
+          "True",
+          "True"
+        ]},
+        {
+          "logic_type": "Inheritance",
+          "logic_subtype": "Linear Inheritance",
+          "logic_type_code": "B1",
+          "Premise": [
+          "All metals are elements.",
+          "All elements are atoms.",
+          "Iron is a metal.",
+          "Iron is an atom."
+        ],
+        "Hypothesis": [
+          "Iron is not an element."
+        ],
+        "Label": [
+          "False"
+        ]},
+      {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+        "All metals are elements.",
+        "All elements are atoms.",
+        "Iron is a metal.",
+        "Iron is an atom."
+        ],
+        "Hypothesis": [
+          "All metals are atoms."
+        ],
+        "Label": [
+          "True"
+        ]}
+
+      ]

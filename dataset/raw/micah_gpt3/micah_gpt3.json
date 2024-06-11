@@ -1,0 +1,1089 @@
+[
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If I wake up at 7am, I will make breakfast.",
+            "If I wake up at 8am, I will go to work.",
+            "I wake up at 7am or 8am."
+        ],
+        "Hypothesis": [
+            "I will make breakfast or go to work."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If I take the bus, it will take 45 minutes to get to work.",
+            "If I drive, it will take 30 minutes to get to work.",
+            "I will take the bus or drive."
+        ],
+        "Hypothesis": [
+            "It will take 45 minutes or 30 minutes to get to work."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If I open the window, the room will be cold.",
+            "If I close the window, the room will be hot.",
+            "I will open the window or close the window."
+        ],
+        "Hypothesis": [
+            "The room will be cold or hot."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If I'm sick, I will go to the doctor.",
+            "If I'm healthy, I will go to work.",
+            "I'm sick or healthy."
+        ],
+        "Hypothesis": [
+            "I will not go to the doctor and not go to work."    
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If the cat is outside, it will be cold.",
+            "If the cat is inside, it will be warm.",
+            "The cat is outside or inside."
+        ],
+        "Hypothesis": [
+            "The cat is cold or warm."  
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If I'm happy, I will smile.",
+            "If I'm sad, I will frown.",
+            "I'm happy or sad."
+        ],
+        "Hypothesis": [
+            "I will not smile and not frown."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If I'm happy, I will smile.",
+            "If I'm sad, I will frown.",
+            "I'm happy or sad."
+        ],
+        "Hypothesis": [
+            "I will not smile and not frown."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If the light is green, I will go.",
+            "If the light is red, I will stop.",
+            "The light is green or red."
+        ],
+        "Hypothesis": [
+            "I will go or stop."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If I'm a good person, I will go to heaven.",
+            "If I'm a bad person, I will go to hell.",
+            "I'm a good person or a bad person."
+        ],
+        "Hypothesis": [
+            "I will go to heaven or hell."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Constructive Dilemma",
+        "logic_type_code": "P5",
+        "Premise": [
+            "If I'm a good person, I will go to heaven.",
+            "If I'm a bad person, I will go to hell.",
+            "I'm a good person or a bad person."
+        ],
+        "Hypothesis": [
+            "I will not go to heaven and not go to hell."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If the ice cream is chocolate, I will eat it.",
+            "If the ice cream is strawberry, I will not eat it.",
+            "I will not eat it or I will not not eat it."
+        ],
+        "Hypothesis": [
+            "The ice cream is chocolate and the ice cream is strawberry."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If the person is a child, they will go to the child's area.",
+            "If the person is an adult, they will go to the adult's area.",
+            "The person will not go to the child's area or the person will not go to the adult's area."
+        ],
+        "Hypothesis": [
+            "The person is not a child or the person is not an adult."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If the light is green, I will go.",
+            "If the light is yellow, I will go.",
+            "I will not go or I will go."
+        ],
+        "Hypothesis": [
+            "The light is red."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If the test is easy, I will get an A.",
+            "If the test is hard, I will get a C.",
+            "I will get an A or I will get a C."
+        ],
+        "Hypothesis": [
+            "The test is easy and the test is hard."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If the house is on fire, we will call the fire department.",
+            "If there is a gas leak, we will call the gas company.",
+            "We will not call the fire department or we will not call the gas company."
+        ],
+        "Hypothesis": [
+            "There is not a fire or there is not a gas leak."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If the answer is correct, you will get a point.",
+            "If the answer is incorrect, you will lose a point.",
+            "You will not get a point or you will not get a point."
+        ],
+        "Hypothesis": [
+            "The answer is correct and the answer is incorrect."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If the person is a doctor, they will save lives.",
+            "If the person is a lawyer, they will put people in jail.",
+            "The person will not save lives or the person will not put people in jail."
+        ],
+        "Hypothesis": [
+            "The person is not a doctor or the person is not a lawyer."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If it is a cat, it will meow.",
+            "If it is a dog, it will bark.",
+            "It will not meow or it will not bark."
+        ],
+        "Hypothesis": [
+            "It is not a cat or it is not a dog."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If the TV is on, I will watch it.",
+            "If I am tired, I will sleep.",
+            "I will not watch it or I will not sleep."
+        ],
+        "Hypothesis": [
+            "The TV is on and I am tired."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Calculus",
+        "logic_subtype": "Destructive Dilemma",
+        "logic_type_code": "P6",
+        "Premise": [
+            "If the bird is a sparrow, it will eat insects.",
+            "If the bird is a robin, it will eat berries.",
+            "It will not eat insects or it will not eat berries."
+        ],
+        "Hypothesis": [
+            "The bird is not a sparrow or the bird is not a robin."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All intelligent students get good grades.",
+            "John is a student.",
+            "John is intelligent."
+        ],
+        "Hypothesis": [
+            "John gets good grades."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All employed adults work hard.",
+            "John is an adult.",
+            "John is employed."
+        ],
+        "Hypothesis": [
+            "John works hard."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All happy dogs like to play fetch.", 
+            "Rover is a dog.",
+            "Rover is not happy"
+        ],
+        "Hypothesis": [
+            "Rover likes to play fetch."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All green apples are sour.",
+            "Granny Smith apples are green."
+        ],
+        "Hypothesis": [
+            "Granny Smith apples are not sour."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "Dogs normally like to play.",
+            "Dalmatians are dogs.",
+            "Dalmatians are normally not playful."
+        ],
+        "Hypothesis": [
+            "Dalmatians are not playful.",
+            "Dalmatians are not dogs."
+        ],
+        "Label": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "Cats usually sleep a lot.",
+            "Calico cats are cats.",
+            "Calico cats usually don't sleep a lot."
+        ],
+        "Hypothesis": [
+            "Calico cats don't sleep a lot.",
+            "Cats other than calico cats sleep a lot.",
+            "Calico cats are not cats."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "Trees are normally tall.",
+            "Pines are trees.",
+            "Pines are normally not tall."
+    
+        ],
+        "Hypothesis": [
+            "Pines are not tall.",
+            "Pines are not trees."
+        ],
+        "Label": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "The moon is round.",
+            "The moon is a satellite.",
+            "Satellites are normally not round."
+        ],
+        "Hypothesis": [
+            "Satellites that are not the moon are round.",
+            "The moon is not a satellite."
+        ],
+        "Label": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "Most people are taller than 3 feet.",
+            "Bill is a person.",
+            "Bill is shorter than 3 feet."
+        ],
+        "Hypothesis": [
+            "Bill is not a person.",
+            "People that are shorter than 3 feet are not people."
+        ],
+        "Label": [
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "The sun is normally yellow.",
+            "The sun is a star.",
+            "Stars are normally not yellow."
+        ],
+        "Hypothesis": [
+            "The sun is not a star.",
+            "Stars that are not the sun are not yellow."
+        ],
+        "Label": [
+            "False",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "The sky is normally blue.",
+            "The sky is a atmosphere.",
+            "Atmospheres are normally not blue.",
+            "Mars has an atmosphere."
+        ],
+        "Hypothesis": [
+            "The sky is not an atmosphere.",
+            "Mars does not have an atmosphere.",
+            "Atmospheres that are not the sky are not blue."
+        ],
+        "Label": [
+            "False",
+            "False",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "Birds can normally fly.",
+            "Ostriches are birds.",
+            "Ostriches can't fly."
+        ],
+        "Hypothesis": [
+            "All ostriches can fly.",
+            "Birds that are not ostriches can fly.",
+            "Birds can't fly."
+        ],
+        "Label": [
+            "False",
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "A students normally study a lot.",
+            "Bill is an A student.",
+            "Bill does not study a lot."
+        ],
+        "Hypothesis": [
+            "Bill is not an A student.",
+            "All students that study a lot are A students.",
+            "A students do not study a lot."
+        ],
+        "Label": [
+            "False",
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Linear Inheritance",
+        "logic_type_code": "B1",
+        "Premise": [
+            "The sun is normally yellow.",
+            "The sun is a star.",
+            "Stars are normally not yellow.",
+            "Alpha Centauri is a star."
+        ],
+        "Hypothesis": [
+            "The sun is not a star.",
+            "Alpha Centauri is not yellow.",
+            "Stars are not yellow."
+        ],
+        "Label": [
+            "False",
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Multiple Inheritance",
+        "logic_type_code": "B4",
+        "Premise": [
+            "Birds normally have feathers.",
+            "Dinosaurs are normally reptiles.",
+            "Reptiles normally have scales.",
+            "Birds are not reptiles."
+        ],
+        "Hypothesis": [
+            "Birds which are not dinosaurs have feathers.",
+            "Dinosaurs which are not birds have scales.",
+            "Birds, dinosaurs, reptiles, and scales have feathers."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Roses are normally red.",
+            "Roses are flowers.",
+            "Flowers are normally not red.",
+            "Carnations are flowers.",
+            "Carnations are normally red."
+        ],
+        "Hypothesis": [
+            "Roses are not red.",
+            "Carnations are not red.",
+            "Flowers other than roses and carnations are not red."
+        ],
+        "Label": [
+            "False",
+            "False",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Dogs normally like to play.",
+            "Dalmatians are dogs.",
+            "Labradors are dogs.",
+            "Dalmatians are normally not playful.",
+            "Labradors are normally not playful."
+        ],
+        "Hypothesis": [
+            "Dalmatians and Labradors are not dogs.",
+            "Dalmatians and Labradors are not playful.",
+            "Dogs other than Dalmatians and Labradors are playful."
+        ],
+        "Label": [
+            "False",
+            "True",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Apples are normally red.",
+            "Apples are fruits.",
+            "Fruits are normally not red.",
+            "Cherries are fruits.",
+            "Cherries are normally red."
+        ],
+        "Hypothesis": [
+            "Apples are not fruits.",
+            "Cherries are not red.",
+            "Fruits other than apples and cherries are not red."
+        ],
+        "Label": [
+            "False",
+            "False",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "People are normally happy.",
+            "Babies are people.",
+            "Babies are normally not happy.",
+            "Toddlers are people.",
+            "Toddlers are normally not happy.",
+            "Adults are people.",
+            "Adults are normally happy."
+        ],
+        "Hypothesis": [
+            "People other than babies and toddlers are happy.",
+            "Babies and toddlers are not happy.",
+            "Adults are not happy."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Animals are normally cute.",
+            "Dogs are animals.",
+            "Dogs are normally cute.",
+            "Tigers are animals.",
+            "Tigers are normally not cute."
+        ],
+        "Hypothesis": [
+            "Animals other than tigers are cute.",
+            "Tigers are not cute.",
+            "Dogs are not cute."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Food is normally healthy.",
+            "Junk food is food.",
+            "Junk food is normally not healthy.",
+            "Chips are junk food.",
+            "Chips are normally not healthy.",
+            "Fruits are food.",
+            "Fruits are normally healthy."
+        ],
+        "Hypothesis": [
+            "Food other than junk food and chips is healthy.",
+            "Junk food other than chips is healthy.",
+            "Chips are healthy.",
+            "Fruits are not healthy."
+        ],
+        "Label": [
+            "True",
+            "False",
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "People are normally good.",
+            "Criminals are people.",
+            "Criminals are normally not good.",
+            "Police officers are people.",
+            "Police officers are normally not good.",
+            "Lawyers are people.",
+            "Lawyers are normally good."
+        ],
+        "Hypothesis": [
+            "People other than criminals and police officers are good.",
+            "Criminals and police officers are not good.",
+            "Lawyers are not good."
+        ],
+        "Label": [
+            "True",
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Objects are normally stationary.",
+            "Rocks are objects.",
+            "Rocks are normally stationary.",
+            "Cars are objects.",
+            "Cars are normally not stationary.",
+            "Bicycles are objects.",
+            "Bicycles are normally not stationary."
+        ],
+        "Hypothesis": [
+            "Objects other than rocks and cars are stationary.",
+            "Rocks and cars are not stationary.",
+            "Bicycles are stationary."
+        ],
+        "Label": [
+            "True",
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "People are normally social.",
+            "Introverts are people.",
+            "Introverts are normally not social.",
+            "Extroverts are people.",
+            "Extroverts are normally social."
+        ],
+        "Hypothesis": [
+            "People other than introverts are social.",
+            "Introverts are social.",
+            "Extroverts are not social."
+        ],
+        "Label": [
+            "True",
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Books are normally interesting.",
+            "Textbooks are books.",
+            "Textbooks are normally not interesting.",
+            "Novels are books.",
+            "Novels are normally interesting."
+        ],
+        "Hypothesis": [
+            "Books other than textbooks and novels are interesting.",
+            "Textbooks and novels are not interesting.",
+            "Novels are interesting."
+        ],
+        "Label": [
+            "True",
+            "False",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Students are normally intelligent.",
+            "Dumb students are students.",
+            "Dumb students are normally not intelligent.",
+            "Smart students are students.",
+            "Smart students are normally intelligent."
+        ],
+        "Hypothesis": [
+            "Students other than dumb students are intelligent.",
+            "Dumb students are intelligent.",
+            "Smart students are not intelligent."
+        ],
+        "Label": [
+            "True",
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Dogs are normally friendly.",
+            "Pit bulls are dogs.",
+            "Pit bulls are normally not friendly.",
+            "Labradors are dogs.",
+            "Labradors are normally friendly."        
+        ],
+        "Hypothesis": [
+            "Dogs other than pit bulls are friendly.",
+            "Pit bulls are friendly.",
+            "Labradors are not friendly."        
+        ],
+        "Label": [
+            "True",
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Food is normally nutritious.",
+            "Candy is food.",
+            "Candy is normally not nutritious.",
+            "Vegetables are food.",
+            "Vegetables are normally nutritious."        
+        ],
+        "Hypothesis": [
+            "Food other than candy and vegetables is nutritious.",
+            "Candy and vegetables are not nutritious.",
+            "Vegetables are nutritious."        
+        ],
+        "Label": [
+            "True",
+            "False",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "Animals are normally tame.",
+            "Bears are animals.",
+            "Bears are normally not tame.",
+            "Lions are animals.",
+            "Lions are normally not tame."        
+        ],
+        "Hypothesis": [
+            "Animals other than lions and bears are tame.",
+            "Bears are tame.",
+            "Lions are not tame."        
+        ],
+        "Label": [
+            "True",
+            "False",
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Inheritance",
+        "logic_subtype": "Tree-Structured Inheritance",
+        "logic_type_code": "B2",
+        "Premise": [
+            "People are normally brave.",
+            "Cowards are people.",
+            "Cowards are normally not brave.",
+            "Warriors are people.",
+            "Warriors are normally brave."        
+        ],
+        "Hypothesis": [
+            "People other than cowards are brave.",
+            "Cowards are brave.",
+            "Warriors are not brave."        
+        ],
+        "Label": [
+            "True",
+            "False",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "No train goes faster than 500 miles per hour.",
+            "The Acela Express is a train."
+        ],
+        "Hypothesis": [
+            "The Acela Express does not go faster than 500 miles per hour."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All members of the city council are not honest.",
+            "John is a member of the city council."
+        ],
+        "Hypothesis": [
+            "John is honest."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All vegetables are good for you.",
+            "Carrots are vegetables."
+        ],
+        "Hypothesis": [
+            "Carrots are good for you."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All planets orbit around the sun.",
+            "Jupiter is a planet."
+        ],
+        "Hypothesis": [
+            "Jupiter orbits around the sun."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All ghosts are not solid.",
+            "Slimer is a ghost."
+        ],
+        "Hypothesis": [
+            "Slimer is solid."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All athletes are in shape.",
+            "Lisa is an athlete."
+        ],
+        "Hypothesis": [
+            "Lisa is in shape."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All ghosts are not solid.",
+            "Slimer is a ghost."
+        ],
+        "Hypothesis": [
+            "Slimer is not transparent."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All dogs are animals.",
+            "Dogs are loyal."
+        ],
+        "Hypothesis": [
+            "All animals are loyal."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All dogs are animals.",
+            "Poodles are dogs."
+        ],
+        "Hypothesis": [
+            "Poodles are animals."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Universal Instantiation",
+        "logic_type_code": "F2",
+        "Premise": [
+            "All animals are creatures.",
+            "Birds are animals."
+        ],
+        "Hypothesis": [
+            "Birds are creatures."
+        ],
+        "Label": [
+            "True"
+        ]
+    }
+]

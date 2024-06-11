@@ -1,0 +1,767 @@
+﻿[
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to have a job are not allowed to work.",
+            "John has a job."
+        ],
+        "Hypothesis": [
+            "Mary is not allowed to work."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to have a car are not allowed to drive.",
+            "John has a car."
+        ],
+        "Hypothesis": [
+            "Mike is not allowed to drive."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to have a house are not allowed to live.",
+            "John has a house."
+        ],
+        "Hypothesis": [
+            "Mary is not allowed to live in house."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to have a phone are not allowed to call.",
+            "John has a phone."
+        ],
+        "Hypothesis": [
+            "Mary is not allowed to call."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to have a TV are not allowed to watch.",
+            "John has a TV."
+        ],
+        "Hypothesis": [
+            "Mary is not allowed to watch TV."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to have a computer are not allowed to use it.",
+            "John has a computer."
+        ],
+        "Hypothesis": [
+            "Mary is not allowed to use computer."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to have a pen are not allowed to write.",
+            "John has a pen."
+        ],
+        "Hypothesis": [
+            "Mary is not allowed to write."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Cats that are not known to be lazy are not allowed to sleep all day.",
+            "Whiskers is a lazy cat."
+        ],
+        "Hypothesis": [
+            "Whiskers is not allowed to sleep all day."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Cats that are not known to be lazy are not allowed to sleep all day.",
+            "Max is not a lazy cat."
+        ],
+        "Hypothesis": [
+            "Max is not allowed to sleep all day."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Paintings that are not known to be valuable are not kept in the museum.",
+            "The Mona Lisa is a valuable painting."
+        ],
+        "Hypothesis": [
+            "The Mona Lisa is kept in the museum."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Paintings that are not known to be valuable are not kept in the museum.",
+            "The painting I made in preschool is not valuable."
+        ],
+        "Hypothesis": [
+            "The painting I made in preschool is kept in the museum."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Boys who are not known to be good at math are not allowed to take the math test.",
+            "John is good at math."
+        ],
+        "Hypothesis": [
+            "Mike is not allowed to take the math test."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Boys who are not known to be good at math are not allowed to take the math test.",
+            "Mike is not good at math."
+        ],
+        "Hypothesis": [
+            "Mike is not allowed to take the math test."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Girls who are not known to be good at cooking are not allowed to make dinner.",
+            "Mary is good at cooking."
+        ],
+        "Hypothesis": [
+            "Mary is allowed to make dinner."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Girls who are not known to be good at cooking are not allowed to make dinner.",
+            "Lisa is not good at cooking."
+        ],
+        "Hypothesis": [
+            "Mona is not allowed to make dinner."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to be good at swimming are not allowed to go to the pool.",
+            "John is not good at swimming."
+        ],
+        "Hypothesis": [
+            "John is allowed to go to the pool."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to be good at swimming are not allowed to go to the pool.",
+            "Mike is good at swimming."
+        ],
+        "Hypothesis": [
+            "Mike is allowed to go to the pool."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to be good at swimming are not allowed to go to the pool.",
+            "Mike is good at swimming."
+        ],
+        "Hypothesis": [
+            "Lisa is allowed to go to the pool."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Dogs that are not known to be friendly are not allowed in the park.",
+            "Fido is not a friendly dog."
+        ],
+        "Hypothesis": [
+            "Fido is not allowed in the park."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Dogs that are not known to be friendly are not allowed in the park.",
+            "Max is a friendly dog."
+        ],
+        "Hypothesis": [
+            "Max is not allowed in the park."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Trees that are not known to be tall are not allowed in the park.",
+            "The oak tree is not tall."
+        ],
+        "Hypothesis": [
+            "The oak tree is not allowed in the park."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Trees that are not known to be tall are not allowed in the park.",
+            "The pine tree is tall."
+        ],
+        "Hypothesis": [
+            "The pine tree is allowed in the park."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Books that are not known to be popular are not allowed in the library.",
+            "The Cat in the Hat is popular."
+        ],
+        "Hypothesis": [
+            "The Cat in the Hat is allowed in the library."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Books that are not known to be popular are not allowed in the library.",
+            "Green Eggs and Ham is popular."
+        ],
+        "Hypothesis": [
+            "Green Eggs and Ham is not allowed in the library."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Books that are not known to be popular are not allowed in the library.",
+            "The Cat in the Hat is not popular."
+        ],
+        "Hypothesis": [
+            "The Cat in the Hat is not allowed in the library."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Dishes that are not known to be clean are not allowed in the dining room.",
+            "The plates are not clean."
+        ],
+        "Hypothesis": [
+            "The plates are not allowed in the dining room."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Dishes that are not known to be clean are not allowed in the dining room.",
+            "The cups are not clean."
+        ],
+        "Hypothesis": [
+            "The cups are allowed in the dining room."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Dishes that are not known to be clean are not allowed in the dining room.",
+            "The forks are clean."
+        ],
+        "Hypothesis": [
+            "The forks are allowed in the dining room."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Toys that are known to be broken are not allowed in the toy box.",
+            "The toy car is not broken."
+        ],
+        "Hypothesis": [
+            "The toy car is allowed in the toy box."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Toys that are known to be broken are not allowed in the toy box.",
+            "The toy train is not broken."
+        ],
+        "Hypothesis": [
+            "The toy train is not allowed in the toy box."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Toys that are known to be broken are not allowed in the toy box.",
+            "The toy plane is broken."
+        ],
+        "Hypothesis": [
+            "The toy plane is allowed in the toy box."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Cars that are not known to be expensive are not allowed in the parking garage.",
+            "The Mercedes is an expensive car."
+        ],
+        "Hypothesis": [
+            "The Mercedes is allowed in the parking garage."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Apples that are not known to be red are not on the table.",
+            "Apple A is red."
+        ],
+        "Hypothesis": [
+            "Apple A is not on the table."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are known to have a swimming license are not allowed to swim.",
+            "John has a swimming license."
+        ],
+        "Hypothesis": [
+            "Mike is allowed to swim."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Students who are known to be studying will get good grades.",
+            "John is not studying."
+        ],
+        "Hypothesis": [
+            "John will get good grades."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Dogs that are known to be friendly will not bark at people.",
+            "Dog A is friendly."
+        ],
+        "Hypothesis": [
+            "Dog A will not bark at people."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Cats that are not known to be lazy are not on the couch.",
+            "Cat A is lazy."
+        ],
+        "Hypothesis": [
+            "Cat A is not on the couch."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Birds that are not known to be able to fly are not in the sky.",
+            "Bird A is able to fly."
+        ],
+        "Hypothesis": [
+            "Bird B is in the sky."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Flowers that are not known to be red are not in the garden.",
+            "Flower A is red."
+        ],
+        "Hypothesis": [
+            "Flower A is in the garden."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Trees that are not known to be tall are not in the forest.",
+            "Tree A is tall."
+        ],
+        "Hypothesis": [
+            "Tree B is in the forest."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Houses that are not known to be big are not in the city.",
+            "House A is big."
+        ],
+        "Hypothesis": [
+            "House A is in the city."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Cars that are not known to be fast are not on the highway.",
+            "Car A is fast."
+        ],
+        "Hypothesis": [
+            "Car A is on the highway."
+        ],
+        "Label": [
+            "True"
+        ]
+    },   
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Apples that are known to be red are on the table.",
+            "Apple A is not red."
+        ],
+        "Hypothesis": [
+            "Apple A is not on the table."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are known to have a swimming license are allowed to swim.",
+            "Mike does not have a swimming license."
+        ],
+        "Hypothesis": [
+            "Mike is not allowed to swim."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Dogs that are known to be friendly will not bark at people.",
+            "Dog A is not friendly."
+        ],
+        "Hypothesis": [
+            "Dog B will not bark at people."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Cats that are known to be lazy are on the couch.",
+            "Cat A is not lazy."
+        ],
+        "Hypothesis": [
+            "Cat B is not on the couch."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Birds that are known to be able to fly are in the sky.",
+            "Bird A is not able to fly."
+        ],
+        "Hypothesis": [
+            "Bird A is not in the sky."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Flowers that are known to be red are in the garden.",
+            "Flower A is not red."
+        ],
+        "Hypothesis": [
+            "Flower A is not in the garden."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Trees that are known to be tall are in the forest.",
+            "Tree A is not tall."
+        ],
+        "Hypothesis": [
+            "Tree B is not in the forest."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Houses that are known to be big are in the city.",
+            "House A is not big."
+        ],
+        "Hypothesis": [
+            "House B is in the city."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Cars that are known to be fast are on the highway.",
+            "Car A is not fast."
+        ],
+        "Hypothesis": [
+            "Car A is not on the highway."
+        ],
+        "Label": [
+            "True"
+        ]
+    }
+]

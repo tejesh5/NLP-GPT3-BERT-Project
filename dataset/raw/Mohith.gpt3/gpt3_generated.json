@@ -1,0 +1,6343 @@
+[
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things remain usually as they were",
+            "Any time the robot grasps a block, the block will be in the hand",
+            "If the block is in the hand, then, after the robot moves it onto the table, the block will be on the table",
+            "Initially block A is not in the hand",
+            "Initially block A is not on the table"
+        ],
+        "Hypothesis": [
+            "After the robot grasps block A, waits, and then moves it onto to the table, the block will be on the table"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "Any time an order is received, food will be cooked",
+            "If the food is cooked, it will be served",
+            "Initially the order was not received",
+            "Initially food is not served"
+        ],
+        "Hypothesis": [
+            "After an order has been received, food will be cooked, and then the food will be served"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "Any time an item is selected, the item will be added to the cart",
+            "If an item is in the cart, after shopping, the item will be billed",
+            "Initially the item is not in the cart",
+            "Initially the item is not billed",
+            "Initially shopping is not over"
+        ],
+        "Hypothesis": [
+            "After an item is selected, it will be added to the cart and after shopping, the item will not be billed"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "Any time food is kept inside micro-oven, the food will be cooked",
+            "If a food is not cooked, after cooking, the food will be cooked",
+            "Initially the food is not cooked",
+            "Initially the food is not kept inside micro-oven"
+        ],
+        "Hypothesis": [
+            "After cooked food is placed inside micro-oven, the food will be cooked"
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time the ball is kicked, it will go into the net",
+            "If the ball is in the net, after the game, the ball will be out of the net",
+            "Initially the ball is not in the net",
+            "Initially the game is not over"
+        ],
+        "Hypothesis": [
+            "After the ball is kicked, it will go into the net, and after the game, the ball will be out of the net"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time the water is turned on, the water will be hot",
+            "If the water is hot, after the water is turned off, the water will be cold",
+            "Initially the water is not hot",
+            "Initially the water is not turned on"
+        ],
+        "Hypothesis": [
+            "After the water is turned on, the water will be hot, and after the water is turned off, the water will be cold"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time a shirt is put on, it will be worn",
+            "If a shirt is worn, after taking it off, the shirt will be clean",
+            "Initially the shirt is not worn",
+            "Initially the shirt is not clean"
+        ],
+        "Hypothesis": [
+            "After a shirt is put on, it will be worn, and after taking it off, the shirt will be clean"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time food is placed on the table, it will be eaten",
+            "If food is eaten, after the meal, the food will be gone",
+            "Initially the food is not eaten",
+            "Initially the meal is not over"
+        ],
+        "Hypothesis": [
+            "After food is placed on the table, it will be eaten, and after the meal, the food will be gone."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time a license is renewed, it will be valid",
+            "If a license is valid, after it expires, the license will be invalid",
+            "Initially the license is not valid",
+            "Initially the license is not expired"
+        ],
+        "Hypothesis": [
+            "After a license is renewed, it will be valid, and after it expires, the license will be invalid."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time an item is bought, it will be paid for",
+            "If an item is paid for, after the purchase, the item will be owned",
+            "Initially the item is not bought",
+            "Initially the item is not paid for",
+            "Initially the purchase is not complete"
+        ],
+        "Hypothesis": [
+            "After an item is bought, it will be paid for, and after the purchase, the item will be owned."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time lotion is applied, it will be absorbed",
+            "If lotion is absorbed, after application, the skin will be moisturized",
+            "Initially the lotion is not applied",
+            "Initially the skin is not moisturized"
+        ],
+        "Hypothesis": [
+            "After lotion is applied, it will be absorbed, and after application, the skin will be moisturized."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time a table is set, it will have a tablecloth",
+            "If a table has a tablecloth, after the meal, the tablecloth will be dirty",
+            "Initially the table is not set",
+            "Initially the tablecloth is not dirty"
+        ],
+        "Hypothesis": [
+            "After a table is set, it will have a tablecloth, and after the meal, the tablecloth will be dirty."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time a movie is watched, it will be seen",
+            "If a movie is seen, after the movie is over, the movie will be forgotten",
+            "Initially the movie is not seen",
+            "Initially the movie is not over"
+        ],
+        "Hypothesis": [
+            "After a movie is watched, it will be seen, and after the movie is over, the movie will be forgotten."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time a game is played, it will be fun",
+            "If a game is fun, after the game is over, the game will be remembered",
+            "Initially the game is not played",
+            "Initially the game is not remembered"
+        ],
+        "Hypothesis": [
+            "After a game is played, it will be fun, and after the game is over, the game will be remembered."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time exercise is done, it will be tiring",
+            "If exercise is tiring, after the exercise is over, the person will be tired",
+            "Initially the exercise is not done",
+            "Initially the person is not tired"
+        ],
+        "Hypothesis": [
+            "After exercise is done, it will be tiring, and after the exercise is over, the person will be tired."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time a book is checked out from the library, it will be due in two weeks",
+            "If a book is due in two weeks, after two weeks, the book will be overdue",
+            "Initially the book is not checked out",
+            "Initially the book is not overdue"
+        ],
+        "Hypothesis": [
+            "After a book is checked out from the library, it will be due in two weeks, and after two weeks, the book will be overdue."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time an apartment is rented, it will be for a year",
+            "If an apartment is rented for a year, after a year, the apartment will be available",
+            "Initially the apartment is not rented",
+            "Initially the apartment is not available"
+        ],
+        "Hypothesis": [
+            "After an apartment is rented, it will be for a year, and after a year, the apartment will be available."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time a concert is attended, it will be enjoyable",
+            "If a concert is enjoyable, after the concert is over, the concert will be remembered",
+            "Initially the concert is not attended",
+            "Initially the concert is not remembered"
+        ],
+        "Hypothesis": [
+            "After a concert is attended, it will be enjoyable, and after the concert is over, the concert will be remembered."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time an earthquake occurs, it will be disastrous",
+            "If an earthquake is disastrous, after the earthquake is over, the area will be devastated",
+            "Initially the earthquake does not occur",
+            "Initially the area is not devastated"
+        ],
+        "Hypothesis": [
+            "After an earthquake occurs, it will be disastrous, and after the earthquake is over, the area will be devastated."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Frame Problem for Temporal Projection",
+        "logic_type_code": "D1",
+        "Premise": [
+            "After an action is performed, things usually remain as they were",
+            "Any time food is cooked, it will be fresh",
+            "If food is fresh, after it is eaten, the food will be gone",
+            "Initially the food is not cooked",
+            "Initially the food is not gone"
+        ],
+        "Hypothesis": [
+            "After food is cooked, it will be fresh, and after it is eaten, the food will be gone."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a course is taken, it will be challenging",
+        "If a course is challenging, after the course is over, the course will be forgotten",
+        "Initially the course is not taken",
+        "Initially the course is not forgotten"
+    ],
+    "Hypothesis": [
+        "After a course is taken, it will be challenging, and after the course is over, the course will be forgotten."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a car is driven, it will use gasoline",
+        "If a car uses gasoline, after the car is parked, the car will have no gasoline",
+        "Initially the car is not driven",
+        "Initially the car has gasoline"
+    ],
+    "Hypothesis": [
+        "After a car is driven, it will use gasoline, and after the car is parked, the car will have no gasoline."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time someone is in love, they will be happy",
+        "If someone is happy, after the love is gone, the person will be sad",
+        "Initially someone is not in love",
+        "Initially the person is not sad"
+    ],
+    "Hypothesis": [
+        "After someone is in love, they will be happy, and after the love is gone, the person will be sad."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a fish is put in water, it will swim",
+        "If a fish swims, after a while, the fish will be tired",
+        "Initially the fish is not put in water",
+        "Initially the fish is not tired"
+    ],
+    "Hypothesis": [
+        "After a fish is put in water, it will swim, and after a while, the fish will be tired."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time the news is watched, it will be informative",
+        "If the news is informative, after the news is over, the viewer will be informed",
+        "Initially the news is not watched",
+        "Initially the viewer is not informed"
+    ],
+    "Hypothesis": [
+        "After the news is watched, it will be informative, and after the news is over, the viewer will be informed."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a kid is given a toy, they will be happy",
+        "If a kid is happy, after a while, the kid will be bored",
+        "Initially the kid is not given a toy",
+        "Initially the kid is not bored"
+    ],
+    "Hypothesis": [
+        "After a kid is given a toy, they will be happy, and after a while, the kid will be bored."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a party is thrown, it will be fun",
+        "If a party is fun, after the party is over, the guests will be happy",
+        "Initially the party is not thrown",
+        "Initially the guests are not happy"
+    ],
+    "Hypothesis": [
+        "After a party is thrown, it will be fun, and after the party is over, the guests will be happy."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a sport is played, it will be physical",
+        "If a sport is physical, after the game is over, the players will be tired",
+        "Initially the sport is not played",
+        "Initially the players are not tired"
+    ],
+    "Hypothesis": [
+        "After a sport is played, it will be physical, and after the game is over, the players will be tired."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a dog is given a treat, they will be happy",
+        "If a dog is happy, after a while, the dog will be tired",
+        "Initially the dog is not given a treat",
+        "Initially the dog is not tired"
+    ],
+    "Hypothesis": [
+        "After a dog is given a treat, they will be happy, and after a while, the dog will be tired."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time someone goes to church, they will be spiritual",
+        "If someone is spiritual, after they leave church, they will be peaceful",
+        "Initially someone does not go to church",
+        "Initially someone is not peaceful"
+    ],
+    "Hypothesis": [
+        "After someone goes to church, they will be spiritual, and after they leave church, they will be peaceful."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time someone dances, they will be happy",
+        "If someone is happy, after they stop dancing, they will be tired",
+        "Initially someone does not dance",
+        "Initially someone is not tired"
+    ],
+    "Hypothesis": [
+        "After someone dances, they will be happy, and after they stop dancing, they will be tired."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time medicine is taken, it will be effective",
+        "If medicine is effective, after the medicine is taken, the person will be cured",
+        "Initially the medicine is not taken",
+        "Initially the person is not cured"
+    ],
+    "Hypothesis": [
+        "After medicine is taken, it will be effective, and after the medicine is taken, the person will be cured."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a biology test is taken, it will be difficult",
+        "If a biology test is difficult, after the test is over, the students will be free",
+        "Initially the biology test is not taken",
+        "Initially the students are not free"
+    ],
+    "Hypothesis": [
+        "After a biology test is taken, it will be difficult, and after the test is over, the student will be free."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a fox is seen, it will be quick",
+        "If a fox is quick, after the fox is gone, the observer will be amazed",
+        "Initially the fox is not seen",
+        "Initially the observer is not amazed"
+    ],
+    "Hypothesis": [
+        "After a fox is seen, it will be quick, and after the fox is gone, the observer will be amazed."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a snake is found, it will be slimy",
+        "If a snake is slimy, after the snake is gone, the area will be dirty",
+        "Initially the snake is not found",
+        "Initially the area is not dirty"
+    ],
+    "Hypothesis": [
+        "After a snake is found, it will be slimy, and after the snake is gone, the area will be dirty."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time it snows, the ground will be cold",
+        "If the ground is cold, after the snow melts, the ground will be wet",
+        "Initially it does not snow",
+        "Initially the ground is not wet"
+    ],
+    "Hypothesis": [
+        "After it snows, the ground will be cold, and after the snow melts, the ground will be wet."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time ice is put in a drink, the drink will be cold",
+        "If a drink is cold, after the ice melts, the drink will be watered down",
+        "Initially the ice is not put in the drink",
+        "Initially the drink is not watered down"
+    ],
+    "Hypothesis": [
+        "After ice is put in a drink, the drink will be cold, and after the ice melts, the drink will be watered down."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a product is manufactured, it will be made",
+        "If a product is made, after the product is used, the product will be broken",
+        "Initially the product is not manufactured",
+        "Initially the product is not broken"
+    ],
+    "Hypothesis": [
+        "After a product is manufactured, it will be made, and after the product is used, the product will be broken."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time research is conducted, it will be thorough",
+        "If research is thorough, after the research is finished, the results will be reliable",
+        "Initially the research is not conducted",
+        "Initially the results are not reliable"
+    ],
+    "Hypothesis": [
+        "After research is conducted, it will be thorough, and after the research is finished, the results will be reliable."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a test is taken, it will have a result",
+        "If a test has a result, after the test is graded, the test will be passed or failed",
+        "Initially the test is not taken",
+        "Initially the test is not passed or failed"
+    ],
+    "Hypothesis": [
+        "After a test is taken, it will have a result, and after the test is graded, the test will be passed or failed."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a query is made, it will be against a database",
+        "If a query is made against a database, after the query is executed, the results will be displayed",
+        "Initially the query is not made",
+        "Initially the results are not displayed"
+    ],
+    "Hypothesis": [
+        "After a query is made, it will be against a database, and after the query is executed, the results will be displayed."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a document is created, it will be on a processor",
+        "If a document is on a processor, after the document is printed, the document will be on paper",
+        "Initially the document is not created",
+        "Initially the document is not on paper"
+    ],
+    "Hypothesis": [
+        "After a document is created, it will be on a processor, and after the document is printed, the document will be on paper"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time a law is enacted, it will be obeyed",
+        "If a law is obeyed, after the law is in effect, the law will be followed",
+        "Initially the law is not enacted",
+        "Initially the law is not followed"
+    ],
+    "Hypothesis": [
+        "After a law is enacted, it will be obeyed, and after the law is in effect, the law will be followed"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Frame Problem for Temporal Projection",
+    "logic_type_code": "D1",
+    "Premise": [
+        "After an action is performed, things usually remain as they were",
+        "Any time the police are called, they will come",
+        "If the police come, after the police leave, the situation will be resolved",
+        "Initially the police are not called",
+        "Initially the situation is not resolved"
+    ],
+    "Hypothesis": [
+        "After the police are called, they will come, and after the police leave, the situation will be resolved"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When an item is selected, the item will be normally added to the cart",
+            "When an item is in the cart, after shopping, the item will be billed",
+            "Initially the item is not in the cart",
+            "Initially the item is not billed",
+            "Initially shopping is not over"
+        ],
+        "Hypothesis": [
+            "After an item is selected, it will be added to the cart and after shopping, the item will be billed"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When an item is selected, the item will be normally added to the cart",
+            "When an item is in the cart, after shopping, the item will be billed",
+            "Initially the item is not in the cart",
+            "Initially the item is not billed",
+            "Initially shopping is not over"
+        ],
+        "Hypothesis": [
+            "After an item is selected, it will be added to the cart and after shopping, the item will not be billed"
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When an order is received, food will be cooked",
+            "When food is cooked, it will be served",
+            "Initially the order was not received",
+            "Initially food is not served"
+        ],
+        "Hypothesis": [
+            "After an order has been received, food will be cooked, and then the food will be served."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When an order is received, food will be cooked",
+            "When food is cooked, it will be served",
+            "Initially the order was not received",
+            "Initially food is not served"
+        ],
+        "Hypothesis": [
+            "After an order has been received, food will be cooked, and then the food will not be served."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When food is kept inside micro-oven, the food will be cooked",
+            "When a food is not cooked, after cooking, the food will be cooked",
+            "Initially the food is not cooked",
+            "Initially the food is not kept inside micro-oven"
+        ],
+        "Hypothesis": [
+            "After cooked food is placed inside micro-oven, the food will be cooked"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When food is kept inside micro-oven, the food will be cooked",
+            "When a food is not cooked, after cooking, the food will be cooked",
+            "Initially the food is not cooked",
+            "Initially the food is not kept inside micro-oven"
+        ],
+        "Hypothesis": [
+            "After cooked food is placed inside micro-oven, the food will not be cooked"
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a shirt is put on, the shirt will be worn",
+            "When the shirt is worn, it will be seen",
+            "Initially the shirt is not put on",
+            "Initially the shirt is not worn"
+        ],
+        "Hypothesis": [
+            "After the shirt is put on, it will be worn and seen."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a shirt is put on, the shirt will be worn",
+            "When the shirt is worn, it will be seen",
+            "Initially the shirt is not put on",
+            "Initially the shirt is not worn"
+        ],
+        "Hypothesis": [
+            "After the shirt is put on, it will not be worn or seen."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a license is bought, the license will be used",
+            "When the license is used, it will be seen",
+            "Initially the license is not bought",
+            "Initially the license is not used"
+        ],
+        "Hypothesis": [
+            "After the license is bought, it will be used and seen."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a license is bought, the license will be used",
+            "When the license is used, it will be seen",
+            "Initially the license is not bought",
+            "Initially the license is not used"
+        ],
+        "Hypothesis": [
+            "After the license is bought, it will not be used or seen."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When an item is bought, the item will be in the possession of the buyer",
+            "When an item is in the possession of the buyer, the item will be used",
+            "Initially the item is not bought",
+            "Initially the item is not in the possession of the buyer"
+        ],
+        "Hypothesis": [
+            "After the item is bought, it will be in the possession of the buyer and used."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When an item is bought, the item will be in the possession of the buyer",
+            "When an item is in the possession of the buyer, the item will be used",
+            "Initially the item is not bought",
+            "Initially the item is not in the possession of the buyer"
+        ],
+        "Hypothesis": [
+            "After the item is bought, it will not be in the possession of the buyer or used."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When lotion is applied to the skin, the lotion will be absorbed",
+            "When the lotion is absorbed, the skin will be moisturized",
+            "Initially the lotion is not applied",
+            "Initially the lotion is not absorbed"
+        ],
+        "Hypothesis": [
+            "After the lotion is applied, it will be absorbed and moisturize the skin."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When lotion is applied to the skin, the lotion will be absorbed",
+            "When the lotion is absorbed, the skin will be moisturized",
+            "Initially the lotion is not applied",
+            "Initially the lotion is not absorbed"
+        ],
+        "Hypothesis": [
+            "After the lotion is applied, it will not be absorbed or moisturize the skin."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a table is set, the table will be used",
+            "When the table is used, it will be seen",
+            "Initially the table is not set",
+            "Initially the table is not used"
+        ],
+        "Hypothesis": [
+            "After the table is set, it will be used and seen."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a table is set, the table will be used",
+            "When the table is used, it will be seen",
+            "Initially the table is not set",
+            "Initially the table is not used"
+        ],
+        "Hypothesis": [
+            "After the table is set, it will not be used or seen."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a movie is watched, the movie will be seen",
+            "When the movie is seen, it will be enjoyed",
+            "Initially the movie is not watched",
+            "Initially the movie is not seen"
+        ],
+        "Hypothesis": [
+            "After the movie is watched, it will be seen and enjoyed."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a movie is watched, the movie will be seen",
+            "When the movie is seen, it will be enjoyed",
+            "Initially the movie is not watched",
+            "Initially the movie is not seen"
+        ],
+        "Hypothesis": [
+            "After the movie is watched, it will not be seen or enjoyed."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a game is played, the game will be fun",
+            "When the game is fun, it will be enjoyed",
+            "Initially the game is not played",
+            "Initially the game is not fun"
+        ],
+        "Hypothesis": [
+            "After the game is played, it will be fun and enjoyed."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a game is played, the game will be fun",
+            "When the game is fun, it will be enjoyed",
+            "Initially the game is not played",
+            "Initially the game is not fun"
+        ],
+        "Hypothesis": [
+            "After the game is played, it will not be fun or enjoyed."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When someone exercises, they will become tired",
+            "When someone is tired, they will sleep",
+            "Initially the person is not exercising",
+            "Initially the person is not tired"
+        ],
+        "Hypothesis": [
+            "After the person exercises, they will become tired and sleep."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When someone exercises, they will become tired",
+            "When someone is tired, they will sleep",
+            "Initially the person is not exercising",
+            "Initially the person is not tired"
+        ],
+        "Hypothesis": [
+            "After the person exercises, they will not become tired or sleep."
+        ],
+        "Label": [
+            "False"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a book is checked out from the library, the book will be in the possession of the borrower",
+            "When the book is in the possession of the borrower, the borrower will read the book",
+            "Initially the book is not checked out",
+            "Initially the book is not in the possession of the borrower"
+        ],
+        "Hypothesis": [
+            "After the book is checked out from the library, it will be in the possession of the borrower and read."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a book is checked out from the library, the book will be in the possession of the borrower",
+            "When the book is in the possession of the borrower, the borrower will read the book",
+            "Initially the book is not checked out",
+            "Initially the book is not in the possession of the borrower"
+        ],
+        "Hypothesis": [
+            "After the book is checked out from the library, it will not be in the possession of the borrower or read."
+        ],
+        "Label": [
+            "False"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When an apartment is rented, the apartment will be occupied",
+            "When the apartment is occupied, the rent will be paid",
+            "Initially the apartment is not rented",
+            "Initially the apartment is not occupied"
+        ],
+        "Hypothesis": [
+            "After the apartment is rented, it will be occupied and the rent will be paid."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When an apartment is rented, the apartment will be occupied",
+            "When the apartment is occupied, the rent will be paid",
+            "Initially the apartment is not rented",
+            "Initially the apartment is not occupied"
+        ],
+        "Hypothesis": [
+            "After the apartment is rented, it will not be occupied or the rent will not be paid."
+        ],
+        "Label": [
+            "False"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a concert is attended, the concert will be enjoyed",
+            "When the concert is enjoyed, it will be remembered",
+            "Initially the concert is not attended",
+            "Initially the concert is not enjoyed"
+        ],
+        "Hypothesis": [
+            "After the concert is attended, it will be enjoyed and remembered."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When a concert is attended, the concert will be enjoyed",
+            "When the concert is enjoyed, it will be remembered",
+            "Initially the concert is not attended",
+            "Initially the concert is not enjoyed"
+        ],
+        "Hypothesis": [
+            "After the concert is attended, it will not be enjoyed or remembered."
+        ],
+        "Label": [
+            "False"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When an earthquake occurs, buildings will be destroyed",
+            "When buildings are destroyed, people will be killed",
+            "Initially the earthquake does not occur",
+            "Initially the buildings are not destroyed"
+        ],
+        "Hypothesis": [
+            "After the earthquake occurs, buildings will be destroyed and people will be killed."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Temporal Projection",
+        "logic_type_code": "D2",
+        "Premise": [
+            "After an action is performed, things normally remain as they were",
+            "When an earthquake occurs, buildings will be destroyed",
+            "When buildings are destroyed, people will be killed",
+            "Initially the earthquake does not occur",
+            "Initially the buildings are not destroyed"
+        ],
+        "Hypothesis": [
+            "After the earthquake occurs, buildings will not be destroyed or people will not be killed."
+        ],
+        "Label": [
+            "False"
+        ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "If I breathe, I will survive",
+        "If I work, I will be tired",
+        "I will either breathe or I will not be tired"
+    ],
+    "Hypothesis": [
+        "I will survive or I will not work"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "If I drive a car, I will get to work on time.",
+        "If I am tired, I will fall asleep.",
+        "I will either drive a car or I will not fall asleep."
+    ],
+    "Hypothesis": [
+        "I will get to work on time or I will not be tired."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When someone goes to the gym, they will work out",
+        "When someone works out, they will become tired",
+        "Initially the person does not go to the gym",
+        "Initially the person does not work out"
+    ],
+    "Hypothesis": [
+        "After the person goes to the gym, they will work out and become tired"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When someone goes to the gym, they will work out",
+        "When someone works out, they will become tired",
+        "Initially the person does not go to the gym",
+        "Initially the person does not work out"
+    ],
+    "Hypothesis": [
+        "After the person goes to the gym, they will not work out or become tired"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a course is taken, the course will be studied",
+        "When the course is studied, it will be learned",
+        "Initially the course is not taken",
+        "Initially the course is not studied"
+    ],
+    "Hypothesis": [
+        "After the course is taken, it will be studied and learned"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a course is taken, the course will be studied",
+        "When the course is studied, it will be learned",
+        "Initially the course is not taken",
+        "Initially the course is not studied"
+    ],
+    "Hypothesis": [
+        "After the course is taken, it will not be studied or learned"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a car is driven, the car will be used",
+        "When the car is used, it will be seen",
+        "Initially the car is not driven",
+        "Initially the car is not used"
+    ],
+    "Hypothesis": [
+        "After the car is driven, it will be used and seen"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a car is driven, the car will be used",
+        "When the car is used, it will be seen",
+        "Initially the car is not driven",
+        "Initially the car is not used"
+    ],
+    "Hypothesis": [
+        "After the car is driven, it will not be used or seen"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When love is felt, love will be shown",
+        "When love is shown, it will be reciprocated",
+        "Initially love is not felt",
+        "Initially love is not shown"
+    ],
+    "Hypothesis": [
+        "After love is felt, it will be shown and reciprocated"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When love is felt, love will be shown",
+        "When love is shown, it will be reciprocated",
+        "Initially love is not felt",
+        "Initially love is not shown"
+    ],
+    "Hypothesis": [
+        "After love is felt, it will not be shown or reciprocated"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a fish is caught, the fish will be in the possession of the fisherman",
+        "When the fish is in the possession of the fisherman, the fisherman will eat the fish",
+        "Initially the fish is not caught",
+        "Initially the fish is not in the possession of the fisherman"
+    ],
+    "Hypothesis": [
+        "After the fish is caught, it will be in the possession of the fisherman and eaten"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a fish is caught, the fish will be in the possession of the fisherman",
+        "When the fish is in the possession of the fisherman, the fisherman will eat the fish",
+        "Initially the fish is not caught",
+        "Initially the fish is not in the possession of the fisherman"
+    ],
+    "Hypothesis": [
+        "After the fish is caught, it will not be in the possession of the fisherman or eaten"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a concert is attended, the concert will be enjoyed",
+        "When the concert is enjoyed, it will be remembered",
+        "Initially the concert is not attended",
+        "Initially the concert is not enjoyed"
+    ],
+    "Hypothesis": [
+        "After the concert is attended, it will be enjoyed and remembered."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a concert is attended, the concert will be enjoyed",
+        "When the concert is enjoyed, it will be remembered",
+        "Initially the concert is not attended",
+        "Initially the concert is not enjoyed"
+    ],
+    "Hypothesis": [
+        "After the concert is attended, it will not be enjoyed or remembered."
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When research is conducted, data will be collected",
+        "When data is collected, it will be analyzed",
+        "Initially the research is not conducted",
+        "Initially the data is not collected"
+    ],
+    "Hypothesis": [
+        "After the research is conducted, data will be collected and analyzed."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When research is conducted, data will be collected",
+        "When data is collected, it will be analyzed",
+        "Initially the research is not conducted",
+        "Initially the data is not collected"
+    ],
+    "Hypothesis": [
+        "After the research is conducted, data will not be collected or analyzed."
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Temporal Projection",
+    "logic_type_code": "D2",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a student studies, the student will learn",
+        "When the student learns, the student will remember",
+        "Initially the student is not studying",
+        "Initially the student is not learning"
+    ],
+    "Hypothesis": [
+        "After the student studies, the student will learn and remember."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a plate of food is served on the table, the plate normally stays in the table",
+            "After plate of food A is served on the table, and then plate of food B is served on the table, at most one of the plates A, B was on the table"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of plate A, B was on the table"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a gymnast takes a pair of weights from the rack, normally the gymnast exercises with it",
+            "After a gymnast takes a pair of weights A from the rack, and then takes a pair of weights B from the rack, the gymnast exercises with at most one of the weights A, B"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of the weights A, B is used by the gymnast"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a car is parked at a parking spot, the car usually stays on the spot",
+            "After car A is parked at the parking spot, and then car B is parked in the parking spot, at most one of the cars A, B was in the parking lot"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of car A, B was in the parking spot"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a movie is bought by a theatre, the theatre normally plays the movie",
+            "After movie A is bought by the theatre, and then movie B is bought by the theatre, at most one of the movies A, B will be played"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of movies A, B was played"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy a ticket for the bus, the person normally buys it",
+            "After a person wants to buy a ticket for the bus A, and then wants to buy a ticket for the bus B, at most one of the tickets for the buses A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of the tickets for buses A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a student wants to borrow a book from the library, the student normally borrows it",
+            "After a student wants to borrow book A from the library, and then wants to borrow book B from the library, at most one of the books A, B will be borrowed"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of the books A, B was borrowed"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a worker wants to use a machine in the factory, the worker normally uses it",
+            "After a worker wants to use machine A in the factory, and then wants to use machine B in the factory, at most one of the machines A, B will be used"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of machines A, B was used"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a dog wants to play with a toy, the dog normally plays with it",
+            "After a dog wants to play with toy A, and then wants to play with toy B, at most one of the toys A, B will be played with"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of toys A, B was played with"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a cat wants to drink water, the cat normally drinks it",
+            "After a cat wants to drink water from bowl A, and then wants to drink water from bowl B, at most one of the bowls A, B will have water drunk from it"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of bowls A, B had water drunk from it"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a bird wants to eat food, the bird normally eats it",
+            "After a bird wants to eat food from dish A, and then wants to eat food from dish B, at most one of the dishes A, B will have food eaten from it"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of dishes A, B had food eaten from it"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy a ticket for the train, the person normally buys it",
+            "After a person wants to buy a ticket for the train A, and then wants to buy a ticket for the train B, at most one of the tickets for the trains A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of the tickets for trains A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy a pen, the person normally buys it",
+            "After a person wants to buy a pen A, and then wants to buy a pen B, at most one of the pens A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of pens A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to take the path A, the person normally takes it",
+            "After a person wants to take the path A, and then wants to take the path B, at most one of the paths A, B will be taken"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of paths A, B was taken"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When an airline wants to buy a plane, the airline normally buys it",
+            "After airline A wants to buy a plane, and then airline B wants to buy a plane, at most one of the planes A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of planes A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy a phone, the person normally buys it",
+            "After a person wants to buy a phone A, and then wants to buy a phone B, at most one of the phones A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of phones A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy a ring, the person normally buys it",
+            "After a person wants to buy a ring A, and then wants to buy a ring B, at most one of the rings A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of rings A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a boy wants to ask a girl out, the boy normally asks her out",
+            "After a boy wants to ask girl A out, and then wants to ask girl B out, at most one of the girls A, B will be asked out"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of girls A, B was asked out"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to listen to music, the person normally listens to it",
+            "After a person wants to listen to music A, and then wants to listen to music B, at most one of the music A, B will be listened to"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of music A, B was listened to"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to dance, the person normally dances",
+            "After a person wants to dance to music A, and then wants to dance to music B, at most one of the music A, B will be danced to"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of music A, B was danced to"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to apply for a job, the person normally applies for it",
+            "After a person wants to apply for job A, and then wants to apply for job B, at most one of the jobs A, B will be applied for"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of jobs A, B was applied for"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to play a game, the person normally plays it",
+            "After a person wants to play game A, and then wants to play game B, at most one of the games A, B will be played"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of games A, B was played"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a train wants to leave the station, the train normally leaves",
+            "After train A wants to leave the station, and then train B wants to leave the station, at most one of the trains A, B will leave"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of trains A, B left"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to eat food, the person normally eats it",
+            "After a person wants to eat food A, and then wants to eat food B, at most one of the food A, B will be eaten"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of food A, B was eaten"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to watch a movie, the person normally watches it on a screen",
+            "After a person wants to watch movie A on screen A, and then wants to watch movie B on screen B, at most one of the movies A, B will be watched on one of the screens A, B"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of movies A, B was watched on one of screens A, B"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to watch a movie, the person normally watches it",
+            "After a person wants to watch movie A, and then wants to watch movie B, at most one of the movies A, B will be watched"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of movies A, B was watched"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to have an interview, the person normally has it",
+            "After a person wants to have an interview with person A, and then wants to have an interview with person B, at most one of the interviews with persons A, B will be had"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of interviews with persons A, B was had"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a student wants to go to college, the student normally goes to college",
+            "After a student wants to go to college A, and then wants to go to college B, at most one of the colleges A, B will be gone to"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of colleges A, B was gone to"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to learn, the person normally learns",
+            "After a person wants to learn about subject A, and then wants to learn about subject B, at most one of the subjects A, B will be learned about"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of subjects A, B was learned about"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to go on a date, the person normally goes on the date",
+            "After a person wants to go on a date with person A, and then wants to go on a date with person B, at most one of the dates with persons A, B will be gone on"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of dates with persons A, B was gone on"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to talk, the person normally talks",
+            "After a person wants to talk to person A, and then wants to talk to person B, at most one of the talks with persons A, B will be had"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of talks with persons A, B was had"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to sit in a chair, the person normally sits in the chair",
+            "After a person wants to sit in chair A, and then wants to sit in chair B, at most one of the chairs A, B will be sat in"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of chairs A, B was sat in"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to look out a window, the person normally looks out the window",
+            "After a person wants to look out window A, and then wants to look out window B, at most one of the windows A, B will be looked out"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of windows A, B was looked out"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy something from a store, the person normally buys it from the store",
+            "After a person wants to buy something from store A, and then wants to buy something from store B, at most one of the stores A, B will be bought from"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of stores A, B was bought from"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to read a book, the person normally reads it",
+            "After a person wants to read book A, and then wants to read book B, at most one of the books A, B will be read"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of books A, B was read"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to sit in a seat, the person normally sits in the seat",
+            "After a person wants to sit in seat A, and then wants to sit in seat B, at most one of the seats A, B will be sat in"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of seats A, B was sat in"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to go to the hospital, the person normally goes to the hospital",
+            "After a person wants to go to hospital A, and then wants to go to hospital B, at most one of the hospitals A, B will be gone to"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of hospitals A, B was gone to"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to drink coffee, the person normally drinks it",
+            "After a person wants to drink coffee A, and then wants to drink coffee B, at most one of the coffees A, B will be drunk"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of coffees A, B was drunk"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to go to school, the person normally goes to school",
+            "After a person wants to go to school A, and then wants to go to school B, at most one of the schools A, B will be gone to"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of schools A, B was gone to"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to look at art, the person normally looks at it",
+            "After a person wants to look at art A, and then wants to look at art B, at most one of the art A, B will be looked at"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of art A, B was looked at"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy a pair of shoes, the person normally buys it",
+            "After a person wants to buy a pair of shoes A, and then wants to buy a pair of shoes B, at most one of the pairs of shoes A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of pairs of shoes A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to drink water, the person normally drinks it",
+            "After a person wants to drink water from glass A, and then wants to drink water from glass B, at most one of the glasses A, B will have water drunk from it"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of glasses A, B had water drunk from it"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy a book, the person normally buys it",
+            "After a person wants to buy book A, and then wants to buy book B, at most one of the books A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of books A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy a dress, the person normally buys it",
+            "After a person wants to buy dress A, and then wants to buy dress B, at most one of the dresses A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of dresses A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy a pair of pants, the person normally buys it",
+            "After a person wants to buy a pair of pants A, and then wants to buy a pair of pants B, at most one of the pairs of pants A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of pairs of pants A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Reasoning about Action",
+        "logic_subtype": "Reasoning about the unexpected abscence of change",
+        "logic_type_code": "D9",
+        "Premise": [
+            "When a person wants to buy a shirt, the person normally buys it",
+            "After a person wants to buy shirt A, and then wants to buy shirt B, at most one of the shirts A, B will be bought"
+        ],
+        "Hypothesis": [
+            "After the action is performed, exactly one of shirts A, B was bought"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a plate of food is served at the table, the plate normally stays in the table",
+        "When a plate of food A is moved to table 1, plate of food B falls down"
+    ],
+    "Hypothesis": [
+        "Plate of food B would have fallen down if plate of food A is moved to table 2"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a gymnast takes a pair of weights from the rack, normally the gymnast exercises with it",
+        "When a gymnast does exercise 1 with a pair of weights A, pair of weights B will not be used"
+    ],
+    "Hypothesis": [
+        "Pair of weights B would not be in use if gymnast does exercise 2 with pair of weights A"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a car is parked at a parking spot, the car usually stays in the spot",
+        "After car A is parked in parking spot 1, car B will be removed from the parking lot"
+    ],
+    "Hypothesis": [
+        "Car B would have been removed from the parking lot if car A is parked in parking spot 2"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a movie is bought by a theatre, the theatre normally plays the movie",
+        "After movie A is played in screen 1, no one watches movie B"
+    ],
+    "Hypothesis": [
+        "No one would have watched movie B if movie A is played in screen 2"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a robot moves a block to another location, the block normally stays in that location",
+        "After the robot moved block A to location 1, block B changed its color"
+    ],
+    "Hypothesis": [
+        "Block B would have changed its color if the robot had moved block A to location 2"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a robot moves a block to another location, the block normally stays in that location",
+        "After the robot moved block A to location 1, block B changed its color"
+    ],
+    "Hypothesis": [
+        "Block B would not have changed its color if the robot had moved block A to location 2"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a truck driver backs up the truck to a loading dock, the truck normally stays in that position",
+        "After the truck driver backed up truck A to loading dock 1, the truck's engine caught on fire"
+    ],
+    "Hypothesis": [
+        "The truck's engine would have caught on fire if the truck driver had backed up truck A to loading dock 2"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a truck driver backs up the truck to a loading dock, the truck normally stays in that position",
+        "After the truck driver backed up truck to loading dock 1, the truck's engine caught on fire"
+    ],
+    "Hypothesis": [
+        "The truck's engine would not have caught on fire if the truck driver had backed up truck to loading dock 2"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a cat jumps off a chair, the cat normally stays on the ground",
+        "After the cat jumped off chair A, the cat landed on its feet"
+    ],
+    "Hypothesis": [
+        "The cat would have landed on its feet if the cat had jumped off chair B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a cat jumps off a chair, the cat normally stays on the ground",
+        "After the cat jumped off chair A, the cat landed on its feet"
+    ],
+    "Hypothesis": [
+        "The cat would not have landed on its feet if the cat had jumped off chair B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When an aircraft takes off from an airport, the aircraft normally leaves the ground",
+        "After the aircraft took off from airport A, the aircraft began to fly"
+    ],
+    "Hypothesis": [
+        "The aircraft would have began to fly if the aircraft had taken off from airport B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": " Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a knife is placed in a drawer, the knife normally stays in the drawer",
+        "After the knife was placed in drawer A, the knife was found in drawer B"
+    ],
+    "Hypothesis": [
+        "The knife would have been found in drawer B if the knife had been placed in drawer A"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a knife is placed in a drawer, the knife normally stays in the drawer",
+        "After the knife was placed in drawer A, the knife was found in drawer B"
+    ],
+    "Hypothesis": [
+        "The knife would not have been found in drawer B if the knife had been placed in drawer A"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a child plays with a toy, the toy normally stays in the child's hand",
+        "After the child played with toy A, the toy was found in the child's toy box"
+    ],
+    "Hypothesis": [
+        "The toy would not have been found in the child's toy box if the child had played with toy B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a child plays with a toy, the toy normally stays in the child's hand",
+        "After the child played with toy A, the toy was found in the child's toy box"
+    ],
+    "Hypothesis": [
+        "The toy would have been found in the child's toy box if the child had played with toy B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a rocket is launched, the rocket normally leaves the ground",
+        "After the rocket was launched from launch pad A, the rocket began to fly"
+    ],
+    "Hypothesis": [
+        "The rocket would have begun to fly if the rocket had been launched from launch pad B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a rocket is launched, the rocket normally leaves the ground",
+        "After the rocket was launched from launch pad A, the rocket began to fly"
+    ],
+    "Hypothesis": [
+        "The rocket would not have begun to fly if the rocket had been launched from launch pad B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a gun is fired, the gun normally recoils",
+        "After the gun was fired from firing position A, the gun was found in firing position B"
+    ],
+    "Hypothesis": [
+        "The gun would have been found in firing position A if the gun had been fired from firing position B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a gun is fired, the gun normally recoils",
+        "After the gun was fired from firing position A, the gun was found in firing position B"
+    ],
+    "Hypothesis": [
+        "The gun would not have been found in firing position A if the gun had been fired from firing position B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a message is sent, the message normally arrives",
+        "After the message was sent from computer A, the message was found in the recipient's spam"
+    ],
+    "Hypothesis": [
+        "The message would have been found in the recipient's spam if the message had been sent from computer B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a message is sent, the message normally arrives",
+        "After the message was sent from computer A, the message was found in the recipient's spam"
+    ],
+    "Hypothesis": [
+        "The message would not have been found in the recipient's spam if the message had been sent from computer B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a joke is told, the audience normally laughs",
+        "After the joke was told by comedian A, the audience was not amused"
+    ],
+    "Hypothesis": [
+        "The audience would have been amused if the joke had been told by comedian B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a bird is in a cage, the bird normally stays in the cage",
+        "After the bird was in cage A, the bird was found in cage B"
+    ],
+    "Hypothesis": [
+        "The bird would have been found in cage B if the bird had been in cage A"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a bird is in a cage, the bird normally stays in the cage",
+        "After the bird was in cage A, the bird was found in cage B"
+    ],
+    "Hypothesis": [
+        "The bird would not have been found in cage B if the bird had been in cage A"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a tiger is in a cage, the tiger normally stays in the cage",
+        "After the tiger was in cage A, the tiger was found in cage B"
+    ],
+    "Hypothesis": [
+        "The tiger would have been found in cage B if the tiger had been in cage A"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a tiger is in a cage, the tiger normally stays in the cage",
+        "After the tiger was in cage A, the tiger was found in cage B"
+    ],
+    "Hypothesis": [
+        "The tiger would not have been found in cage B if the tiger had been in cage A"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When an employee is given a job, the employee normally completes the job",
+        "After the employee was given job A, the employee did not complete the job"
+    ],
+    "Hypothesis": [
+        "The employee would not have completed the job if the employee had been given job B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When an employee is given a job, the employee normally completes the job",
+        "After the employee was given job A, the employee did not complete the job"
+    ],
+    "Hypothesis": [
+        "The employee would have completed the job if the employee had been given job B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a person moves into an apartment, the person normally pays rent",
+        "After the person moved into apartment A, the person did not pay rent"
+    ],
+    "Hypothesis": [
+        "The person would not have paid rent if the person had moved into apartment B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a person moves into an apartment, the person normally pays rent",
+        "After the person moved into apartment A, the person did not pay rent"
+    ],
+    "Hypothesis": [
+        "The person would have paid rent if the person had moved into apartment B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a person takes a trip, the person normally returns",
+        "After the person took trip A, the person did not return"
+    ],
+    "Hypothesis": [
+        "The person would not have returned if the person had taken trip B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a person takes a trip, the person normally returns",
+        "After the person took trip A, the person did not return"
+    ],
+    "Hypothesis": [
+        "The person would have returned if the person had taken trip B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a person wears a shirt, the shirt normally covers the person's chest",
+        "After the person wore shirt A, the shirt was found on the person's bed"
+    ],
+    "Hypothesis": [
+        "The shirt would have been found on the person's bed if the person had worn shirt B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a person wears a shirt, the shirt normally covers the person's chest",
+        "After the person wore shirt A, the shirt was found on the person's bed"
+    ],
+    "Hypothesis": [
+        "The shirt would not have been found on the person's bed if the person had worn shirt B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When an item is placed in a container, the item normally remains in the container",
+        "After item 1 was placed in container A, the item was found in container B"
+    ],
+    "Hypothesis": [
+        "Item 2 would have been found in container B if item 2 had been placed in container A"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When an item is placed in a container, the item normally remains in the container",
+        "After the item was placed in container A, the item was found in container B"
+    ],
+    "Hypothesis": [
+        "Item 2 would not have been found in container B if item 2 had been placed in container A"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a computer is turned on, the computer normally starts up",
+        "After the computer was turned on from switch A, the computer began to boot up"
+    ],
+    "Hypothesis": [
+        "The computer would have begun to boot up if the computer had been turned on from switch B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a computer is turned on, the computer normally starts up",
+        "After the computer was turned on from switch A, the computer began to boot up"
+    ],
+    "Hypothesis": [
+        "The computer would not have begun to boot up if the computer had been turned on from switch B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a laptop is closed, the laptop normally goes to sleep",
+        "After the laptop was closed from position A, the laptop turned off"
+    ],
+    "Hypothesis": [
+        "The laptop would have turned off if the laptop had been closed from position B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a laptop is closed, the laptop normally goes to sleep",
+        "After the laptop was closed from position A, the laptop turned off"
+    ],
+    "Hypothesis": [
+        "The laptop would not have turned off if the laptop had been closed from position B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a person starts playing a game, the person normally doesn't stop playing until the game is over",
+        "After the person started playing game A, the person got injured"
+    ],
+    "Hypothesis": [
+        "The person would have got injured if the person had started playing game B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a person starts playing a game, the person normally doesn't stop playing until the game is over",
+        "After the person started playing game A, the person got injured"
+    ],
+    "Hypothesis": [
+        "The person would have not got injured if the person had started playing game B"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "Reasoning about Action",
+    "logic_subtype": "Reasoning about the expected abscence of change",
+    "logic_type_code": "D10",
+    "Premise": [
+        "After an action is performed, things normally remain as they were",
+        "When a person climbs a mountain, the person normally reaches the top",
+        "After the person climbed mountain A, the person got sick"
+    ],
+    "Hypothesis": [
+        "The person would have got sick if the person had climbed mountain B"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I study, I will get a job.",
+            "If I sleep, I will be active.",
+            "I will either study or I will not be active."
+        ],
+        "Hypothesis": [
+            "I will get a job or I will not sleep."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I breathe, I will survive",
+            "If I work, I will be tired",
+            "I will either breathe or I will not be tired"
+        ],
+        "Hypothesis": [
+            "I will survive or I will not work"
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I go out, I will get grocerries.",
+            "If I eat, I will be happy.",
+            "I will either go out or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will get grocerries or I will not eat."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I practive, I will dance.",
+            "If I work, I will get money.",
+            "I will either practice or I will not get money."
+        ],
+        "Hypothesis": [
+            "I will dance or I will not work."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I exercise, I will be healthy.",
+            "If I am sad, I will cry.",
+            "I will either exercise or I will not cry."
+        ],
+        "Hypothesis": [
+            "I will be healthy or I will not be sad."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I take a bath, I will be clean",
+            "If I take a walk, I will be tired",
+            "I will either take a bath or I will not be tired"
+        ],
+        "Hypothesis": [
+            "I will be clean or I will take a walk"
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I buy food, I will be happy.",
+            "If I am lazy, I will sleep.",
+            "I will either buy food or I will not sleep."
+        ],
+        "Hypothesis": [
+            "I will be happy or I will be lazy."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I am healthy, I will eat food.",
+            "If I am sick, I will vomit.",
+            "I will either be healthy or I will not vomit"
+        ],
+        "Hypothesis": [
+            "I will eat food or I will be sick."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I am healthy, I will eat food.",
+            "If I am sick, I will vomit.",
+            "I will either be healthy or I will not vomit"
+        ],
+        "Hypothesis": [
+            "I will eat food or I will be sick."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I drive a car, I will get to work on time.",
+            "If I am tired, I will fall asleep.",
+            "I will either drive a car or I will not fall asleep."
+        ],
+        "Hypothesis": [
+            "I will get to work on time or I will not be tired."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I sit in a chair, I will be comfortable.",
+            "If I am awake, I will be tired.",
+            "I will either sit in a chair or I will not be tired."
+        ],
+        "Hypothesis": [
+            "I will be comfortable or I will not be awake."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I use my phone, I will be happy.",
+            "If I am bored, I will play games.",
+            "I will either use my phone or I will not play games."
+        ],
+        "Hypothesis": [
+            "I will be happy or I will be bored."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I have a notebook, I will be able to take notes.",
+            "If I am in class, I will learn.",
+            "I will either have a notebook or I will not learn."
+        ],
+        "Hypothesis": [
+            "I will be able to take notes or I will not be in class."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I ride a bike, I will be happy.",
+            "If I am angry, I will yell.",
+            "I will either ride a bike or I will not yell."
+        ],
+        "Hypothesis": [
+            "I will be happy or I will not be angry."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I take the bus, I will be on time.",
+            "If I am late, I will be tired.",
+            "I will either take the bus or I will not be tired."
+        ],
+        "Hypothesis": [
+            "I will be on time or I will not be late."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I take the train, I will be on time.",
+            "If I am early, I will wait.",
+            "I will either take the train or I will not wait."
+        ],
+        "Hypothesis": [
+            "I will be on time or I will not be early."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I eat fruit, I will be healthy.",
+            "If I am hungry, I will eat.",
+            "I will either eat fruit or I will not eat."
+        ],
+        "Hypothesis": [
+            "I will be healthy or I will be hungry."
+        ],
+        "Label": [
+            "False"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I am alive, I will breathe.",
+            "If I am dead, I will perish.",
+            "I will either be alive or I will not perish."
+        ],
+        "Hypothesis": [
+            "I will breathe or I will not be dead."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I am cool, I will be popular.",
+            "If I am mediocre, I will be alone.",
+            "I will either be cool or I will not be alone."
+        ],
+        "Hypothesis": [
+            "I will be popular or I will not be mediocre."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I jump, I will be happy.",
+            "If I am sad, I will cry.",
+            "I will either jump or I will not cry."
+        ],
+        "Hypothesis": [
+            "I will be happy or I will not be sad."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I fly, I will be in the air.",
+            "If I am on the ground, I will be safe.",
+            "I will either fly or I will not be safe."
+        ],
+        "Hypothesis": [
+            "I will be in the air or I will not be on the ground."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I have a sword, I will be a warrior.",
+            "If I am brave, I will fight.",
+            "I will either have a sword or I will not fight."
+        ],
+        "Hypothesis": [
+            "I will be a warrior or I will not have a sword."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I have a ring, I will be married.",
+            "If I am single, I will be alone.",
+            "I will either have a ring or I will not be alone."
+        ],
+        "Hypothesis": [
+            "I will be married or I will not be single."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I have a laptop, I will be able to work.",
+            "If I am productive, I will be happy.",
+            "I will either have a laptop or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will be able to work or I will not be productive."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I have a pen, I will be able to write.",
+            "If I am creative, I will be happy.",
+            "I will either have a pen or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will be able to write or I will not be creative."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I have a purse, I will be able to carry money.",
+            "If I am rich, I will be happy.",
+            "I will either have a purse or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will be able to carry money or I will not be rich."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I can cook, I will be able to eat.",
+            "If I am hungry, I will be angry.",
+            "I will either be able to cook or I will not be angry."
+        ],
+        "Hypothesis": [
+            "I will be able to eat or I will not be hungry."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I go to class, I will learn.",
+            "If I am absent, I will fail.",
+            "I will either go to class or I will not fail."
+        ],
+        "Hypothesis": [
+            "I will learn or I will not be absent."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I make dinner, I will be able to eat.",
+            "If I am full, I will be happy.",
+            "I will either make dinner or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will be able to eat, or I will not be full."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I study, I will get a job.",
+            "If I am employed, I will be happy.",
+            "I will either study or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will get a job, or I will not be employed."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I climb, I will be able to reach the top.",
+            "If I am tired, I will rest.",
+            "I will either climb or I will not rest."
+        ],
+        "Hypothesis": [
+            "I will be able to reach the top or I will not be tired."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I walk, I will be able to get to my destination.",
+            "If I am lost, I will be confused.",
+            "I will either walk or I will not be confused."
+        ],
+        "Hypothesis": [
+            "I will be able to get to my destination or I will not be lost."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I sleep, I will be able to dream.",
+            "If I am awake, I will be able to think.",
+            "I will either sleep or I will not be able to think."
+        ],
+        "Hypothesis": [
+            "I will be able to dream, or I will not be awake."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I fight, I will be able to defend myself.",
+            "If I am strong, I will be happy.",
+            "I will either fight or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will be able to defend myself or I will not be strong."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I crawl, I will be able to move.",
+            "If I am fast, I will be able to catch my prey.",
+            "I will either crawl or I will not be able to catch my prey."
+        ],
+        "Hypothesis": [
+            "I will be able to move, or I will not be fast."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I swing, I will be able to hit the ball.",
+            "If I am a good player, I will be happy.",
+            "I will either swing or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will be able to hit the ball or I will not be a good player."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I sing, I will be able to entertain people.",
+            "If I am famous, I will be happy.",
+            "I will either sing or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will be able to entertain people or I will not be famous."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I smoke, I will be able to relax.",
+            "If I am stressed, I will be happy.",
+            "I will either smoke or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will be able to relax or I will not be stressed."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I whistle, I will be able to get people's attention.",
+            "If I am ignored, I will be angry.",
+            "I will either whistle or I will not be angry."
+        ],
+        "Hypothesis": [
+            "I will be able to get people's attention or I will not be ignored."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I listen, I will be able to hear.",
+            "If I am deaf, I will be sad.",
+            "I will either listen or I will not be sad."
+        ],
+        "Hypothesis": [
+            "I will be able to hear or I am not be deaf."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If I trick people, I will be able to get what I want.",
+            "If I am dishonest, I will be happy.",
+            "I will either trick people or I will not be happy."
+        ],
+        "Hypothesis": [
+            "I will be able to get what I want or I will not be dishonest."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If it is cold, I will be able to wear a coat.",
+            "If I am warm, I will be comfortable.",
+            "I will either be cold or I will not be comfortable."
+        ],
+        "Hypothesis": [
+            "I will be able to wear a coat or I will not be cold."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If it is hot, I will be able to wear shorts.",
+            "If I am sweaty, I will be uncomfortable.",
+            "I will either be hot or I will not be comfortable."
+        ],
+        "Hypothesis": [
+            "I will be able to wear shorts or I will not be sweaty."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If it is spicy, I will be able to eat it.",
+            "If I am not tolerant, I will be in pain.",
+            "I will either be spicy or I will not be in pain."
+        ],
+        "Hypothesis": [
+            "I will be able to eat it or I will be tolerant."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If it is sweet, I will be able to eat it.",
+            "If I am diabetic, I will be in pain.",
+            "I will either be sweet or I will not be in pain."
+        ],
+        "Hypothesis": [
+            "I will be able to eat it or I will not be sweet."
+        ],
+        "Label": [
+            "True"
+        ]
+},
+{
+        "logic_type": "Propositional Logic",
+        "logic_subtype": "Bidirectional Dilemma",
+        "logic_type_code": "P7",
+        "Premise": [
+            "If it is bitter, I will be able to taste it.",
+            "If I am not tolerant, I will be in pain.",
+            "I will either be bitter or I will not be in pain."
+        ],
+        "Hypothesis": [
+            "I will be able to taste it or I will be tolerant."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Bidirectional Dilemma",
+    "logic_type_code": "P7",
+    "Premise": [
+        "If I love someone, I will be able to trust them.",
+        "If I am betrayed, I will be hurt.",
+        "I will either love someone or I will not be hurt."
+    ],
+    "Hypothesis": [
+        "I will be able to trust them or I will not be betrayed."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Bidirectional Dilemma",
+    "logic_type_code": "P7",
+    "Premise": [
+        "If I hate someone, I will be able to hurt them.",
+        "If I am vengeful, I will be happy.",
+        "I will either hate someone or I will not be happy."
+    ],
+    "Hypothesis": [
+        "I will be able to hurt them or I will not be vengeful."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Bidirectional Dilemma",
+    "logic_type_code": "P7",
+    "Premise": [
+        "If I have a gun, I will be able to shoot.",
+        "If I am a good shot, I will hit my target.",
+        "I will either have a gun or I will not hit my target."
+    ],
+    "Hypothesis": [
+        "I will be able to shoot or I will not have a good shot."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Bidirectional Dilemma",
+    "logic_type_code": "P7",
+    "Premise": [
+        "If I take a taxi, I will be able to get to my destination.",
+        "If I am late, I will be anxious.",
+        "I will either take a taxi or I will not be anxious."
+    ],
+    "Hypothesis": [
+        "I will be able to get to my destination or I will not be late."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Bidirectional Dilemma",
+    "logic_type_code": "P7",
+    "Premise": [
+        "If I take an aeroplane, I will be able to travel.",
+        "If I am afraid of flying, I will not go.",
+        "I will either take an aeroplane or I will go."
+    ],
+    "Hypothesis": [
+        "I will be able to travel or I will not be afraid of flying."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Bidirectional Dilemma",
+    "logic_type_code": "P7",
+    "Premise": [
+        "If I take the bus, I will be able to get to my destination.",
+        "If I am early, I will wait.",
+        "I will either take the bus or I will not wait."
+    ],
+    "Hypothesis": [
+        "I will be able to get to my destination or I will not be early."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Bidirectional Dilemma",
+    "logic_type_code": "P7",
+    "Premise": [
+        "If it rains, I will be able to use my umbrella.",
+        "If I am wet, I will be uncomfortable.",
+        "I will either rain or I will not be uncomfortable."
+    ],
+    "Hypothesis": [
+        "I will be able to use my umbrella or I will not be wet."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Bidirectional Dilemma",
+    "logic_type_code": "P7",
+    "Premise": [
+        "If it is sunny, I will be able to go outside.",
+        "If I am inside, I will be bored.",
+        "I will either be sunny or I will not be bored."
+    ],
+    "Hypothesis": [
+        "I will be able to go outside or it will not be inside"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Bidirectional Dilemma",
+    "logic_type_code": "P7",
+    "Premise": [
+        "If I cycle, I will be able to get to my destination.",
+        "If I am tired, I will be able to rest.",
+        "I will either cycle or I will not be able to rest."
+    ],
+    "Hypothesis": [
+        "I will be able to get to my destination or I will not be tired."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Bidirectional Dilemma",
+    "logic_type_code": "P7",
+    "Premise": [
+        "If I go to the party, I will be able to have fun.",
+        "If I am not invited, I will be upset.",
+        "I will either go to the party or I will not be upset."
+    ],
+    "Hypothesis": [
+        "I will be able to have fun or I will not be invited."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I will study."
+    ],
+    "Hypothesis": [
+        "I will study or I will work."
+    ],
+    "Label": [
+        "Undeterminded"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I breathe air."
+    ],
+    "Hypothesis": [
+        "I breathe air or I drink water."
+    ],
+    "Label": [
+        "Undeterminded"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I will go out."
+    ],
+    "Hypothesis": [
+        "I will go out or I will watch television."
+    ],
+    "Label": [
+        "Undeterminded"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I dance."
+    ],
+    "Hypothesis": [
+        "I dance or I sing."
+    ],
+    "Label": [
+        "Undeterminded"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I exercise"
+    ],
+    "Hypothesis": [
+        "I exercise or I sleep."
+    ],
+    "Label": [
+        "Undeterminded"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I will study"
+    ],
+    "Hypothesis": [
+        "I will study or I will work."
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I breathe air"
+    ],
+    "Hypothesis": [
+        "I breathe air or I drink water"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I will go out"
+    ],
+    "Hypothesis": [
+        "I will go out or I will watch television"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I dance"
+    ],
+    "Hypothesis": [
+        "I dance or I sing"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I exercise"
+    ],
+    "Hypothesis": [
+        "I exercise or I sleep"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am happy"
+    ],
+    "Hypothesis": [
+        "I am happy or I am angry"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am a student"
+    ],
+    "Hypothesis": [
+        "I am a student or I am a teacher"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am a girl"
+    ],
+    "Hypothesis": [
+        "I am a girl or I am a boy"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am human"
+    ],
+    "Hypothesis": [
+        "I am human or I am an animal"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I live in a house"
+    ],
+    "Hypothesis": [
+        "I live in a house or I live in an apartment"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am wearing a dress"
+    ],
+    "Hypothesis": [
+        "I am wearing a dress or I am wearing a shirt"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am eating an apple"
+    ],
+    "Hypothesis": [
+        "I am eating an apple or I am eating a banana"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am drinking juice"
+    ],
+    "Hypothesis": [
+        "I am drinking juice or I am drinking water"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am swimming"
+    ],
+    "Hypothesis": [
+        "I am swimming or I am running"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am playing the piano"
+    ],
+    "Hypothesis": [
+        "I am playing the piano or I am playing the guitar"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am painting"
+    ],
+    "Hypothesis": [
+        "I am painting or I am drawing"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am writing"
+    ],
+    "Hypothesis": [
+        "I am writing or I am reading"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am riding a bike"
+    ],
+    "Hypothesis": [
+        "I am riding a bike or I am riding a skateboard"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am playing soccer"
+    ],
+    "Hypothesis": [
+        "I am playing soccer or I am playing football"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am surfing"
+    ],
+    "Hypothesis": [
+        "I am surfing or I am skiing"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am visiting my grandparents"
+    ],
+    "Hypothesis": [
+        "I am visiting my grandparents or I am visiting my parents"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am going to school"
+    ],
+    "Hypothesis": [
+        "I am going to school or I am going to work"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am taking a test"
+    ],
+    "Hypothesis": [
+        "I am taking a test or I am studying for a test"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am playing tennis"
+    ],
+    "Hypothesis": [
+        "I am playing tennis or I am playing basketball"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am in a movie theater"
+    ],
+    "Hypothesis": [
+        "I am in a movie theater or I am in a restaurant"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am at the beach"
+    ],
+    "Hypothesis": [
+        "I am at the beach or I am at the park"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am sleeping"
+    ],
+    "Hypothesis": [
+        "I am sleeping or I am awake"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am drinking soda"
+    ],
+    "Hypothesis": [
+        "I am drinking soda or I am drinking milk"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am riding a horse"
+    ],
+    "Hypothesis": [
+        "I am riding a horse or I am riding a camel"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am in Europe"
+    ],
+    "Hypothesis": [
+        "I am in Europe or I am in Asia"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am playing the drums"
+    ],
+    "Hypothesis": [
+        "I am playing the drums or I am playing the saxophone"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am at home"
+    ],
+    "Hypothesis": [
+        "I am at home or I am at school"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am on vacation"
+    ],
+    "Hypothesis": [
+        "I am on vacation or I am at work"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am eating breakfast"
+    ],
+    "Hypothesis": [
+        "I am eating breakfast or I am eating lunch"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am playing tag"
+    ],
+    "Hypothesis": [
+        "I am playing tag or I am playing hide and seek"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am at the mall"
+    ],
+    "Hypothesis": [
+        "I am at the mall or I am at the grocery store"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am drinking coffee"
+    ],
+    "Hypothesis": [
+        "I am drinking coffee or I am drinking tea"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am using the computer"
+    ],
+    "Hypothesis": [
+        "I am using the computer or I am using the phone"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am riding a bus"
+    ],
+    "Hypothesis": [
+        "I am riding a bus or I am riding a train"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am in New York"
+    ],
+    "Hypothesis": [
+        "I am in New York or I am in California"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am going to the park"
+    ],
+    "Hypothesis": [
+        "I am going to the park or I am going to the zoo"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am eating candy"
+    ],
+    "Hypothesis": [
+        "I am eating candy or I am eating cake"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am playing video games"
+    ],
+    "Hypothesis": [
+        "I am playing video games or I am playing cards"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am at the circus"
+    ],
+    "Hypothesis": [
+        "I am at the circus or I am at the carnival"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am in a car"
+    ],
+    "Hypothesis": [
+        "I am in a car or I am in a plane"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am going to the dentist"
+    ],
+    "Hypothesis": [
+        "I am going to the dentist or I am going to the doctor"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am eating pizza"
+    ],
+    "Hypothesis": [
+        "I am eating pizza or I am eating spaghetti"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am in Africa"
+    ],
+    "Hypothesis": [
+        "I am in Africa or I am in Australia"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am riding a bike"
+    ],
+    "Hypothesis": [
+        "I am riding a bike or I am walking"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am in China"
+    ],
+    "Hypothesis": [
+        "I am in China or I am in Japan"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am going to the library"
+    ],
+    "Hypothesis": [
+        "I am going to the library or I am going to the bookstore"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am eating a sandwich"
+    ],
+    "Hypothesis": [
+        "I am eating a sandwich or I am eating a salad"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am going to the movies"
+    ],
+    "Hypothesis": [
+        "I am going to the movies or I am going to the theater"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am in Europe"
+    ],
+    "Hypothesis": [
+        "I am in Europe or I am in North America"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+{
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Addition",
+    "logic_type_code": "P8",
+    "Premise": [
+        "I am playing chess"
+    ],
+    "Hypothesis": [
+        "I am playing chess or I am playing checkers"
+    ],
+    "Label": [
+        "Undetermined"
+    ]
+},
+
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "John got good marks in Physics"
+    ],
+    "Hypothesis": [
+        "Therefore, someone got good marks in Physics"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "Edmund Hillary climbed mount Everest"
+    ],
+    "Hypothesis": [
+        "Therefore, someone climbed mount Everest"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "Neil Armstrong was the first person to walk on the lunar surface."
+    ],
+    "Hypothesis": [
+        "Neil Armstrong was the first person to walk on the lunar surface."
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "Apples are grown at Washington state in the United States."
+    ],
+    "Hypothesis": [
+        "Therefore, somewhere in the United States Apples are grown"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "There are rich people in the community"
+    ],
+    "Hypothesis": [
+        "Therefore, someone in the community is rich"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The Sun is a star"
+    ],
+    "Hypothesis": [
+        "Therefore, there is a star"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "Patrick lifted 100kgs of weight"
+    ],
+    "Hypothesis": [
+        "Therefore, someone lifted 100kgs of weight"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "I went to the theatre today"
+    ],
+    "Hypothesis": [
+        "Therefore, someone went to the theatre"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "I am wearing a green shirt"
+    ],
+    "Hypothesis": [
+        "Therefore, someone is wearing a green shirt"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The cat is on the mat"
+    ],
+    "Hypothesis": [
+        "Therefore, something is on the mat"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "John is taller than Peter"
+    ],
+    "Hypothesis": [
+        "Therefore, someone is taller than Peter"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The temperature is was below 60 F yesterday"
+    ],
+    "Hypothesis": [
+        "Therefore, someday the temperature was below 60 F"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "My company made a profit this quarter"
+    ],
+    "Hypothesis": [
+        "Therefore, all companies made a profit this quarter"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "I am taller than my brother"
+    ],
+    "Hypothesis": [
+        "Therefore, everyone is taller than my brother"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The Earth is round"
+    ],
+    "Hypothesis": [
+        "Therefore, all planets are round"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The girl in the red coat is pretty"
+    ],
+    "Hypothesis": [
+        "Therefore, some girl in red coats is pretty"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The poet is happy"
+    ],
+    "Hypothesis": [
+        "Therefore, all poets are happy"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "My car is blue"
+    ],
+    "Hypothesis": [
+        "Therefore, some car is blue"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "I am a student"
+    ],
+    "Hypothesis": [
+        "Therefore, someone is a student"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The President is a man"
+    ],
+    "Hypothesis": [
+        "Therefore, all Presidents are men"
+    ],
+    "Label": [
+        "False"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The dog is on the mat"
+    ],
+    "Hypothesis": [
+        "Therefore, something is on the mat"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The cat is black"
+    ],
+    "Hypothesis": [
+        "Therefore, some cat is black"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The wind is blowing"
+    ],
+    "Hypothesis": [
+        "Therefore, something is blowing"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The man is hungry"
+    ],
+    "Hypothesis": [
+        "Therefore, someone is hungry"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The sun is shining"
+    ],
+    "Hypothesis": [
+        "Therefore, something is shining"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The child is crying"
+    ],
+    "Hypothesis": [
+        "Therefore, someone is crying"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The woman is pregnant"
+    ],
+    "Hypothesis": [
+        "Therefore, someone is pregnant"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The tree is green"
+    ],
+    "Hypothesis": [
+        "Therefore, some tree is green"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The house is on fire"
+    ],
+    "Hypothesis": [
+        "Therefore, something is on fire"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "That man is bald"
+    ],
+    "Hypothesis": [
+        "Therefore, some man is bald"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "That man is rich"
+    ],
+    "Hypothesis": [
+        "Therefore, some man is rich"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "That man is poor"
+    ],
+    "Hypothesis": [
+        "Therefore, some man is poor"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "That woman is beautiful"
+    ],
+    "Hypothesis": [
+        "Therefore, some woman is beautiful"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The woman is ugly"
+    ],
+    "Hypothesis": [
+        "Therefore, some woman is ugly"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The book is interesting"
+    ],
+    "Hypothesis": [
+        "Therefore, some book is interesting"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The book is boring"
+    ],
+    "Hypothesis": [
+        "Therefore, some book is boring"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The play was good"
+    ],
+    "Hypothesis": [
+        "Therefore, some play is good"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The play was bad"
+    ],
+    "Hypothesis": [
+        "Therefore, some play was bad"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The game was fun"
+    ],
+    "Hypothesis": [
+        "Therefore, some game is fun"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The game was boring"
+    ],
+    "Hypothesis": [
+        "Therefore, some game was boring"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The food was delicious"
+    ],
+    "Hypothesis": [
+        "Therefore, some food is delicious"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The food was terrible"
+    ],
+    "Hypothesis": [
+        "Therefore, some food was terrible"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The movie was great"
+    ],
+    "Hypothesis": [
+        "Therefore, some movie is great"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The movie was terrible"
+    ],
+    "Hypothesis": [
+        "Therefore, some movie was terrible"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The party was fun"
+    ],
+    "Hypothesis": [
+        "Therefore, some party is fun"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The party was a disaster"
+    ],
+    "Hypothesis": [
+        "Therefore, some party was a disaster"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The vacation was amazing"
+    ],
+    "Hypothesis": [
+        "Therefore, some vacation is amazing"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The vacation was a nightmare"
+    ],
+    "Hypothesis": [
+        "Therefore, some vacation was a nightmare"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The concert was fantastic"
+    ],
+    "Hypothesis": [
+        "Therefore, some concert is fantastic"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The concert was a disaster"
+    ],
+    "Hypothesis": [
+        "Therefore, some concert was a disaster"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The meeting was productive"
+    ],
+    "Hypothesis": [
+        "Therefore, some meeting is productive"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The meeting was a waste of time"
+    ],
+    "Hypothesis": [
+        "Therefore, some meeting was a waste of time"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The class was interesting"
+    ],
+    "Hypothesis": [
+        "Therefore, some class is interesting"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The class was boring"
+    ],
+    "Hypothesis": [
+        "Therefore, some class was boring"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Existential Introduction",
+    "logic_type_code": "F4",
+    "Premise": [
+        "The project was a success"
+    ],
+    "Hypothesis": [
+        "Therefore, some project is a success"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If anyone is sad, they will cry",
+        "John is sad"
+    ],
+    "Hypothesis": [
+        "John will cry"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If anyone hears telephone ringing, he will answer the telephone",
+        "Patrick hears telephone ringing"
+    ],
+    "Hypothesis": [
+        "Patrick will answer the telephone"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If there is smoke in the room, alarm will ring",
+        "There is smoke in the room"
+    ],
+    "Hypothesis": [
+        "Alarm will ring"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If temperature is below zero degrees, ice will form",
+        "The temperature is below zero degrees"
+    ],
+    "Hypothesis": [
+        "Ice will form"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If Steve comes on time, he could enter the lecture hall",
+        "Steve comes on time"
+    ],
+    "Hypothesis": [
+        "Steve could enter the lecture hall"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the dog barks, it is hungry",
+        "The dog is barking"
+    ],
+    "Hypothesis": [
+        "The dog is hungry"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If Joe is taller than John, then Joe is taller than average",
+        "Joe is taller than John"
+    ],
+    "Hypothesis": [
+        "Joe is taller than average"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If John is a member of the chess club, then John knows how to play chess",
+        "John is a member of the chess club"
+    ],
+    "Hypothesis": [
+        "John knows how to play chess"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the car is moving, then the engine is on",
+        "The car is moving"
+    ],
+    "Hypothesis": [
+        "The engine is on"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the light is on, then the switch is in the on position",
+        "The light is on"
+    ],
+    "Hypothesis": [
+        "The switch is in the on position"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If it is raining, then the ground is wet",
+        "It is raining"
+    ],
+    "Hypothesis": [
+        "The ground is wet"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the cookie jar is empty, then there are no cookies",
+        "The cookie jar is empty"
+    ],
+    "Hypothesis": [
+        "There are no cookies"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If John has a cold, then he has a runny nose",
+        "John has a cold"
+    ],
+    "Hypothesis": [
+        "John has a runny nose"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the dish is dirty, it needs to be washed",
+        "The dish is dirty"
+    ],
+    "Hypothesis": [
+        "The dish needs to be washed"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If a triangle has two equal sides, then it is an isosceles triangle",
+        "This triangle has two equal sides"
+    ],
+    "Hypothesis": [
+        "This triangle is an isosceles triangle"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the toy is for a baby, it is small",
+        "The toy is for a baby"
+    ],
+    "Hypothesis": [
+        "The toy is small"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the plant needs water, it is wilted",
+        "The plant needs water"
+    ],
+    "Hypothesis": [
+        "The plant is wilted"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the cat is sleeping, it is not awake",
+        "The cat is sleeping"
+    ],
+    "Hypothesis": [
+        "The cat is not awake"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the TV is on, it is making noise",
+        "The TV is on"
+    ],
+    "Hypothesis": [
+        "The TV is making noise"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the can is open, it does not have a lid",
+        "The can is open"
+    ],
+    "Hypothesis": [
+        "The can does not have a lid"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the wind is blowing, it is not calm",
+        "The wind is blowing"
+    ],
+    "Hypothesis": [
+        "The wind is not calm"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the lamp is unplugged, it is not on",
+        "The lamp is unplugged"
+    ],
+    "Hypothesis": [
+        "The lamp is not on"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the car is parked, it is not moving",
+        "The car is parked"
+    ],
+    "Hypothesis": [
+        "The car is not moving"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the ice cream is melted, it is not frozen",
+        "The ice cream is melted"
+    ],
+    "Hypothesis": [
+        "The ice cream is not frozen"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the cookies are baked, they are not raw",
+        "The cookies are baked"
+    ],
+    "Hypothesis": [
+        "The cookies are not raw"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the water is not hot, it is not boiling",
+        "The water is not hot"
+    ],
+    "Hypothesis": [
+        "The water is not boiling"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If John is happy, he will smile",
+        "John is happy"
+    ],
+    "Hypothesis": [
+        "John will smile"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the boys are arguing, they will fight",
+        "The boys are arguing"
+    ],
+    "Hypothesis": [
+        "The boys will fight"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If Sue is at church, she is praying",
+        "Sue is at church"
+    ],
+    "Hypothesis": [
+        "Sue is praying"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the children are outside, they are playing",
+        "The children are outside"
+    ],
+    "Hypothesis": [
+        "The children are playing"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the man is a knight, he is carrying a sword",
+        "The man is a knight"
+    ],
+    "Hypothesis": [
+        "The man is carrying a sword"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the man is a police officer, he is carrying a gun",
+        "The man is a police officer"
+    ],
+    "Hypothesis": [
+        "The man is carrying a gun"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the girl is at the vanity, she is looking in the mirror",
+        "The girl is at the vanity"
+    ],
+    "Hypothesis": [
+        "The girl is looking in the mirror"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the delivery man is here, he has pizza",
+        "The delivery man is here"
+    ],
+    "Hypothesis": [
+        "The delivery man has pizza"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the bus arrives at the stop, it is time to board",
+        "The bus arrives at the stop"
+    ],
+    "Hypothesis": [
+        "It is time to board"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the man is a hunter, he has an arrow",
+        "The man is a hunter"
+    ],
+    "Hypothesis": [
+        "The man has an arrow"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the laptop is open, the computer is on",
+        "The laptop is open"
+    ],
+    "Hypothesis": [
+        "The computer is on"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If it is hot, the fan is on",
+        "It is hot"
+    ],
+    "Hypothesis": [
+        "The fan is on"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the phone is on the table, it is not in use",
+        "The phone is on the table"
+    ],
+    "Hypothesis": [
+        "The phone is not in use"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the window is open, the room is not private",
+        "The window is open"
+    ],
+    "Hypothesis": [
+        "The room is not private"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the baby is crying, she is hungry",
+        "The baby is crying"
+    ],
+    "Hypothesis": [
+        "The baby is hungry"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the girl is at the salon, she is getting her hair done",
+        "The girl is at the salon"
+    ],
+    "Hypothesis": [
+        "The girl is getting her hair done"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the woman is outside, she is in the garden",
+        "The woman is outside"
+    ],
+    "Hypothesis": [
+        "The woman is in the garden"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If it is Monday, the children are in school",
+        "It is Monday"
+    ],
+    "Hypothesis": [
+        "The children are in school"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the man is at the airport, he is taking a trip on an aeroplane",
+        "The man is at the airport"
+    ],
+    "Hypothesis": [
+        "The man is taking a trip on an aeroplane"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If there is a chip in the paint, the paint is damaged",
+        "There is a chip in the paint"
+    ],
+    "Hypothesis": [
+        "The paint is damaged"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the roof is leaking, the house needs repairs",
+        "The roof is leaking"
+    ],
+    "Hypothesis": [
+        "The house needs repairs"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the boat is in the water, it has sails",
+        "The boat is in the water"
+    ],
+    "Hypothesis": [
+        "The boat has sails"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the man is sitting, he is in a chair",
+        "The man is sitting"
+    ],
+    "Hypothesis": [
+        "The man is in a chair"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the book is on the shelf, it is not being read",
+        "The book is on the shelf"
+    ],
+    "Hypothesis": [
+        "The book is not being read"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the student is in class, she is paying attention",
+        "The student is in class"
+    ],
+    "Hypothesis": [
+        "The student is paying attention"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the wind is blowing, the trees are swaying",
+        "The wind is blowing"
+    ],
+    "Hypothesis": [
+        "The trees are swaying"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the sun is out, it is daytime",
+        "The sun is out"
+    ],
+    "Hypothesis": [
+        "It is daytime"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the man is driving, he is not walking",
+        "The man is driving"
+    ],
+    "Hypothesis": [
+        "The man is not walking"
+    ],
+    "Label": [
+        "True"
+    ]
+},
+{
+    "logic_type": "First-Order Logic",
+    "logic_subtype": "Generalized Modus Ponens",
+    "logic_type_code": "F5",
+    "Premise": [
+        "If the light is green, the man can cross the street",
+        "The light is green"
+    ],
+    "Hypothesis": [
+        "The man can cross the street"
+    ],
+    "Label": [
+        "True"
+    ]
+}
+
+    
+
+]

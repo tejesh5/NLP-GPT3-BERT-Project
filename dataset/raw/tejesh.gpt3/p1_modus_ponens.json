@@ -1,0 +1,782 @@
+﻿[
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If it rains, the ground will be wet.",
+            "It is raining."
+        ],
+        "Hypothesis": [
+            "Therefore, the ground is wet."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If a metal is heated, it will expand.",
+            "This metal is heated."
+        ],
+        "Hypothesis": [
+            "Therefore, it will expand."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If a number is divisible by 3, it is a multiple of 3.",
+            "This number is divisible by 3."
+        ],
+        "Hypothesis": [
+            "Therefore, it is a multiple of 3."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If a number is divisible by 5, it is a multiple of 5.",
+            "This number is divisible by 5."
+        ],
+        "Hypothesis": [
+            "Therefore, it is a multiple of 5."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If a number is divisible by 7, it is a multiple of 7.",
+            "This number is divisible by 7."
+        ],
+        "Hypothesis": [
+            "Therefore, it is a multiple of 7."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If it rains, the ground will be wet.",
+            "It is raining."
+        ],
+        "Hypothesis": [
+            "Therefore, the ground is wet."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Alyssa goes outside, she will see the sun.",
+            "Alyssa is inside."
+        ],
+        "Hypothesis": [
+            "Therefore, Alyssa will see the sun."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Bill gates had a dollar for every time someone used his software, he would be a billionaire.",
+            "Bill Gates is a billionaire."
+        ],
+        "Hypothesis": [
+            "Therefore, people use his software a lot."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Christina eats too much, she will get a stomachache.",
+            "Christina did not eat too much."
+        ],
+        "Hypothesis": [
+            "Therefore, Christina will not get a stomachache."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the light is green, it is safe to cross the street.",
+            "The light is red."
+        ],
+        "Hypothesis": [
+            "Therefore, it is not safe to cross the street."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Hannah finishes her math homework, she can watch TV.",
+            "Hannah finished her math homework."
+        ],
+        "Hypothesis": [
+            "Therefore, Hannah can watch TV."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the cat catches the mouse, the cat will eat the mouse.",
+            "The cat did not catch the mouse."
+        ],
+        "Hypothesis": [
+            "Therefore, the cat will not eat the mouse."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If James drinks soda, he will get a headache.",
+            "James drank soda."
+        ],
+        "Hypothesis": [
+            "Therefore, James will get a headache."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Jenica finishes her chores, she can go to the park.",
+            "Jenica finished her chores."
+        ],
+        "Hypothesis": [
+            "Therefore, Jenica can go to the park."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the temperature is below freezing, water will turn to ice.",
+            "The temperature is above freezing."
+        ],
+        "Hypothesis": [
+            "Therefore, water will not turn to ice."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Kaitlyn cleans her room, she will get a prize.",
+            "Kaitlyn did not clean her room."
+        ],
+        "Hypothesis": [
+            "Therefore, Kaitlyn will not get a prize."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Lisa eats healthy, she will feel good.",
+            "Lisa is eating healthy."
+        ],
+        "Hypothesis": [
+            "Therefore, Lisa is feeling good."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the moon is out, it is nighttime.",
+            "It is daytime."
+        ],
+        "Hypothesis": [
+            "Therefore, the moon is not out."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Maria does her homework, she will get a good grade.",
+            "Maria did her homework."
+        ],
+        "Hypothesis": [
+            "Therefore, Maria will get a good grade."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Nicki finishes her dinner, she can have dessert.",
+            "Nicki did not finish her dinner."
+        ],
+        "Hypothesis": [
+            "Therefore, Nicki cannot have dessert."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the oven is on, it is hot.",
+            "The oven is off."
+        ],
+        "Hypothesis": [
+            "Therefore, it is not hot."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Olivia runs a mile, she will be tired.",
+            "Olivia ran a mile."
+        ],
+        "Hypothesis": [
+            "Therefore, Olivia is tired."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the sun is out, it is daytime.",
+            "It is nighttime."
+        ],
+        "Hypothesis": [
+            "Therefore, the sun is not out."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If a number is divisible by 11, it is a multiple of 11.",
+            "This number is divisible by 11."
+        ],
+        "Hypothesis": [
+            "Therefore, it is a multiple of 11."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Rachel finishes her math homework, she can watch TV.",
+            "Rachel did not finish her math homework."
+        ],
+        "Hypothesis": [
+            "Therefore, Rachel cannot watch TV."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Sarah has a penny, she has one cent.",
+            "Sarah has a penny."
+        ],
+        "Hypothesis": [
+            "Therefore, Sarah has one cent."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If it is sunny, the sun is out.",
+            "It is not sunny."
+        ],
+        "Hypothesis": [
+            "Therefore, the sun is not out."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Tyler finishes his math homework, he can watch TV.",
+            "Tyler did not finish his math homework."
+        ],
+        "Hypothesis": [
+            "Therefore, Tyler cannot watch TV."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Vanessa finishes her math homework, she can watch TV.",
+            "Vanessa finished her math homework."
+        ],
+        "Hypothesis": [
+            "Therefore, Vanessa can watch TV."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the wind is blowing, it is windy.",
+            "The wind is blowing."
+        ],
+        "Hypothesis": [
+            "Therefore, it is windy."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Willow has a nickel, she has five cents.",
+            "Willow has a nickel."
+        ],
+        "Hypothesis": [
+            "Therefore, Willow has five cents."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Xavier has a quarter, he has twenty-five cents.",
+            "Xavier does not have a quarter."
+        ],
+        "Hypothesis": [
+            "Therefore, Xavier does not have twenty-five cents."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the temperature is below freezing, water will turn to ice.",
+            "The temperature is below freezing."
+        ],
+        "Hypothesis": [
+            "Therefore, water will turn to ice."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Yvonne finishes her math homework, she can watch TV.",
+            "Yvonne did not finish her math homework."
+        ],
+        "Hypothesis": [
+            "Therefore, Yvonne cannot watch TV."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Zeke has a dime, he has ten cents.",
+            "Zeke does not have a dime."
+        ],
+        "Hypothesis": [
+            "Therefore, Zeke does not have ten cents."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the sky is clear, there will be a rainbow.",
+            "The sky is clear."
+        ],
+        "Hypothesis": [
+            "Therefore, there will be a rainbow."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Amy goes outside, she will see the sun.",
+            "Amy is outside."
+        ],
+        "Hypothesis": [
+            "Therefore, Amy will see the sun."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the ground is wet, it has rained.",
+            "The ground is not wet."
+        ],
+        "Hypothesis": [
+            "Therefore, it has not rained."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Brian has an apple, he has a fruit.",
+            "Brian has an apple."
+        ],
+        "Hypothesis": [
+            "Therefore, Brian has a fruit."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the ground is dry, it has not rained.",
+            "The ground is dry."
+        ],
+        "Hypothesis": [
+            "Therefore, it has not rained."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Carmen has a banana, she has a fruit.",
+            "Carmen does not have a banana."
+        ],
+        "Hypothesis": [
+            "Therefore, Carmen does not have a fruit."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If David has an orange, he has a fruit.",
+            "David does not have an orange."
+        ],
+        "Hypothesis": [
+            "Therefore, David does not have a fruit."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the ground is frozen, it is cold.",
+            "The ground is frozen."
+        ],
+        "Hypothesis": [
+            "Therefore, it is cold."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Ethan has a grape, he has a fruit.",
+            "Ethan has a grape."
+        ],
+        "Hypothesis": [
+            "Therefore, Ethan has a fruit."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the ground is hot, it is sunny.",
+            "The ground is not hot."
+        ],
+        "Hypothesis": [
+            "Therefore, it is not sunny."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Fiona has a strawberry, she has a fruit.",
+            "Fiona does not have a strawberry."
+        ],
+        "Hypothesis": [
+            "Therefore, Fiona does not have a fruit."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the sky is cloudy, it is not sunny.",
+            "The sky is cloudy."
+        ],
+        "Hypothesis": [
+            "Therefore, it is not sunny."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the sky is blue, it is daytime.",
+            "The sky is blue."
+        ],
+        "Hypothesis": [
+            "Therefore, it is daytime."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the sky is dark, it is nighttime.",
+            "The sky is dark."
+        ],
+        "Hypothesis": [
+            "Therefore, it is nighttime."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the sun is out, it is daytime.",
+            "The sun is not out."
+        ],
+        "Hypothesis": [
+            "Therefore, it is nighttime."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If the sun is shining, it is daytime.",
+            "The sun is shining."
+        ],
+        "Hypothesis": [
+            "Therefore, it is daytime."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Grant has a watermelon, he has a fruit.",
+            "Grant does not have a watermelon."
+        ],
+        "Hypothesis": [
+            "Therefore, Grant does not have a fruit."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    }
+]

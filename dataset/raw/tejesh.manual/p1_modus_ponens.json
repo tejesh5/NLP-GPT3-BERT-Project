@@ -1,0 +1,82 @@
+﻿[
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If today is Monday, Mike will go to work.",
+            "Today is Monday."
+        ],
+        "Hypothesis": [
+            "Therefore, Mike will go to work."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If Lydia wins a ten-million-dollar lottery, then Kay will quit her job.",
+            "Lydia wins a ten-million-dollar lottery."
+        ],
+        "Hypothesis": [
+            "Therefore, Kay will quit her job.",
+            "Kay will not quit her job."
+
+        ],
+        "Label": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If it is raining, I will take an umbrella.",
+            "It is raining."
+        ],
+        "Hypothesis": [
+            "Therefore, I will take an umbrella."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If John studies, he will get good grades.",
+            "John studied."
+        ],
+        "Hypothesis": [
+            "Therefore, John got good grades."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Ponens",
+        "logic_type_code": "P1",
+        "Premise": [
+            "If John gets a raise, he will go on a vacation.",
+            "John gets a raise."
+        ],
+        "Hypothesis": [
+            "Therefore, John will go on a vacation.",
+            "John will not go on a vacation."
+        ],
+        "Label": [
+            "True",
+            "False"
+        ]
+    }
+]

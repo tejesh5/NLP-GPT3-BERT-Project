@@ -1,0 +1,81 @@
+﻿[
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If the dog detects an intruder, the dog will bark.",
+            "The dog did not bark."
+        ],
+        "Hypothesis": [
+            "Therefore, no intruder was detected by the dog."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If Allison vacations in Paris, then she will have to win a scholarship.",
+            "Allison did not win a scholarship."
+        ],
+        "Hypothesis": [
+            "Therefore, Allison is not vacationing in Paris.",
+            "Allison is vacationing in Paris."
+        ],
+        "Label": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If it is raining, then I make will tea.",
+            "I did not make tea."
+        ],
+        "Hypothesis": [
+            "Therefore, it is not raining.",
+            "It is raining."
+        ],
+        "Label": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If the match is lit, then there is oxygen in the room.",
+            "The match is not lit."
+        ],
+        "Hypothesis": [
+            "Therefore, there is no oxygen in the room."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Propositional logic",
+        "logic_subtype": "Modus Tollens",
+        "logic_type_code": "P2",
+        "Premise": [
+            "If John wins a lottery, he will go on a vacation.",
+            "John did not go on a vacation."
+        ],
+        "Hypothesis": [
+            "Therefore, John did not win a lottery."
+        ],
+        "Label": [
+            "True"
+        ]
+    }
+]

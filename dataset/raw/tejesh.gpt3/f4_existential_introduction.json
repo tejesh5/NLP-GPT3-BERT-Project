@@ -1,0 +1,731 @@
+﻿[
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is taller than Mike."
+        ],
+        "Hypothesis": [
+            "Therefore, John is taller than someone."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is the smartest person in the class."
+        ],
+        "Hypothesis": [
+            "Therefore, John is smarter than someone in the class."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John has green eyes."
+        ],
+        "Hypothesis": [
+            "Therefore, someone has green eyes."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is a good basketball player."
+        ],
+        "Hypothesis": [
+            "Therefore, John is better than someone at basketball."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is a fast runner."
+        ],
+        "Hypothesis": [
+            "Therefore, John can run faster than someone."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is the best tennis player in the club."
+        ],
+        "Hypothesis": [
+            "Therefore, John is better than someone at tennis."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is from Canada."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is from Canada."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is a member of the club."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is a member of the club."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John graduated from Harvard."
+        ],
+        "Hypothesis": [
+            "Therefore, someone graduated from Harvard."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John likes chocolate."
+        ],
+        "Hypothesis": [
+            "Therefore, someone likes chocolate."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John won the game."
+        ],
+        "Hypothesis": [
+            "Therefore, someone won the game."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John has a cat."
+        ],
+        "Hypothesis": [
+            "Therefore, someone has a cat."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John likes to play soccer."
+        ],
+        "Hypothesis": [
+            "Therefore, someone likes to play soccer."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "Mike is shorter than John."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is shorter than John."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is the oldest."
+        ],
+        "Hypothesis": [
+            "Therefore, Mike is older than someone."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is the youngest."
+        ],
+        "Hypothesis": [
+            "Therefore, John is younger than someone."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is a boy."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is a boy."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "Mary is a girl."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is a girl."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is studying in Grade 5."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is studying in Grade 5."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is studying in Grade 6."
+        ],
+        "Hypothesis": [
+            "Therefore, everyone is studying in Grade 5."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is studying in Grade 7."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is studying in Grade 7."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John's favorite color is blue."
+        ],
+        "Hypothesis": [
+            "Therefore, someone's favorite color is blue."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John's favorite color is green."
+        ],
+        "Hypothesis": [
+            "Therefore, someone's favorite color is yellow."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John's favorite color is yellow."
+        ],
+        "Hypothesis": [
+            "Therefore, John's favorite color is some color."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John likes to play soccer."
+        ],
+        "Hypothesis": [
+            "Therefore, someone likes to play football."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John likes to play soccer."
+        ],
+        "Hypothesis": [
+            "Therefore, everyone likes to play football."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John likes to play baseball."
+        ],
+        "Hypothesis": [
+            "Therefore, someone likes to play baseball."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John likes to play basketball."
+        ],
+        "Hypothesis": [
+            "Therefore, John likes to play some game."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "Mike is John's friend."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is Mike's friend."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "Mary is John's sister."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is John's sister."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is Mary's brother."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is Mary's brother."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John's father is Mr. Smith."
+        ],
+        "Hypothesis": [
+            "Therefore, someone's father is Mr. John."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John's mother is Mrs. Smith."
+        ],
+        "Hypothesis": [
+            "Therefore, someone's mother is Mrs. Smith."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John has a pet dog."
+        ],
+        "Hypothesis": [
+            "Therefore, everyone has a pet dog."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John has a pet cat."
+        ],
+        "Hypothesis": [
+            "Therefore, someone has a pet cat."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John has a pet bird."
+        ],
+        "Hypothesis": [
+            "Therefore, John has a some pet."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John's favorite food is pizza."
+        ],
+        "Hypothesis": [
+            "Therefore, everyone's favorite food is pizza."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John's favorite food is hamburger."
+        ],
+        "Hypothesis": [
+            "Therefore, someone's favorite food is hamburger."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John's favorite food is chicken."
+        ],
+        "Hypothesis": [
+            "Therefore, someone's favorite food is goat."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John lives in New York."
+        ],
+        "Hypothesis": [
+            "Therefore, someone lives in New York."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John lives in California."
+        ],
+        "Hypothesis": [
+            "Therefore, someone lives in Texas."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John lives in Texas."
+        ],
+        "Hypothesis": [
+            "Therefore, everyone lives in Arizona."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is from America."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is from America."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is from Canada."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is from Mexico."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John's favorite animal is a dog."
+        ],
+        "Hypothesis": [
+            "Therefore, someone's favorite animal is a dog."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John's favorite animal is a cat."
+        ],
+        "Hypothesis": [
+            "Therefore, someone's favorite animal is a dog."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is smart."
+        ],
+        "Hypothesis": [
+            "Therefore, someone is not smart."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is not smart."
+        ],
+        "Hypothesis": [
+            "Therefore, everyone is smart."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is a good person."
+        ],
+        "Hypothesis": [
+            "Therefore, everyone is a bad person."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John is not happy."
+        ],
+        "Hypothesis": [
+            "Therefore, everyone is happy."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John has a lot of money."
+        ],
+        "Hypothesis": [
+            "Therefore, someone has a lot of money."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Existential introduction",
+        "logic_type_code": "F4",
+        "Premise": [
+            "John likes to eat pizza."
+        ],
+        "Hypothesis": [
+            "Therefore, someone likes to eat pizza."
+        ],
+        "Label": [
+            "True"
+        ]
+    }
+]
+

@@ -1,0 +1,152 @@
+[
+	{
+		"logic_type": "Propositional Logic",
+	    "logic_subtype": "Disjunctive syllogism",
+	    "logic_type_code": "P4",
+	    "Premise": [
+		    "The light is either on or off.",
+		    "The light is not on."
+		],
+		"Hypothesis": [
+		    "Therefore, the light is off."
+		],
+		"Label": [
+		    "True"
+		]
+	},
+	{
+		"logic_type": "Propositional Logic",
+	    "logic_subtype": "Disjunctive syllogism",
+	    "logic_type_code": "P4",
+	    "Premise": [
+		    "The water is either hot or cold.",
+		    "The water is not hot."
+		],
+		"Hypothesis": [
+		    "Therefore, the water is cold."
+		],
+		"Label": [
+		    "True"
+		]	  
+	},
+	{
+		"logic_type": "Propositional Logic",
+	    "logic_subtype": "Disjunctive syllogism",
+	    "logic_type_code": "P4",
+	    "Premise": [
+		    "The answer is either true or false.",
+		    "The answer is not true."
+		],
+		"Hypothesis": [
+		    "Therefore, the answer is not false."
+		],
+		  "Label": [
+		    "False"
+		]
+	},
+	{
+		"logic_type": "Propositional Logic",
+	    "logic_subtype": "Disjunctive syllogism",
+	    "logic_type_code": "P4",
+		"Premise": [
+			"John is either at home or at work.",
+			"John is not at home."
+		],
+		"Hypothesis": [
+			"Therefore, John is at work."
+		],
+		"Label": [
+			"True"
+		]
+	},
+	{
+		"logic_type": "Propositional Logic",
+		"logic_subtype": "Disjunctive syllogism",
+		"logic_type_code": "P4",
+		"Premise": [
+			"Mary is either at the park or at the mall.",
+			"Mary is not at the park."
+		],
+		"Hypothesis": [
+			"Therefore, Mary is at the mall."
+		],
+		"Label": [
+			"True"
+		]
+	},
+	{
+		"logic_type": "Propositional Logic",
+		"logic_subtype": "Disjunctive syllogism",
+		"logic_type_code": "P4",
+		"Premise": [
+			"The cat is either black or white.",
+			"The cat is not black."
+		],
+		"Hypothesis": [
+			"Therefore, the cat is white."
+		],
+		"Label": [
+			"True"
+		]
+	},
+	{
+		"logic_type": "Propositional Logic",
+		"logic_subtype": "Disjunctive syllogism",
+		"logic_type_code": "P4",
+		"Premise": [
+			"The ball is either red or blue.",
+			"The ball is not red."
+		],
+		"Hypothesis": [
+			"Therefore, the ball is round."
+		],
+		"Label": [
+			"Undetermined"   
+		]
+	},
+	{
+		"logic_type": "Propositional Logic",
+		"logic_subtype": "Disjunctive syllogism",
+		"logic_type_code": "P4",
+		"Premise": [
+			"The car is either red or blue.",
+			"The car is not red."
+		],
+		"Hypothesis": [
+			"Therefore, the car is blue."
+		],
+		"Label": [
+			"True"   
+		]
+	},
+	{
+		"logic_type": "Propositional Logic",
+		"logic_subtype": "Disjunctive syllogism",
+		"logic_type_code": "P4",
+		"Premise": [
+			"The truck is either white or blue.",
+			"The truck is not blue."
+		],
+		"Hypothesis": [
+			"Therefore, the truck is not white."
+		],
+		"Label": [
+			"False"   
+		]
+	},
+	{
+		"logic_type": "Propositional Logic",
+		"logic_subtype": "Disjunctive syllogism",
+		"logic_type_code": "P4",
+		"Premise": [
+			"The sky is either red or blue.",
+			"The sky is not red."
+		],
+		"Hypothesis": [
+			"Therefore, the sky is purple."
+		],
+		"Label": [
+			"False"   
+		]
+	}
+]

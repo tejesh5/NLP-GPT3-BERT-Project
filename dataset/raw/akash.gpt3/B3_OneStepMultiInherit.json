@@ -1,0 +1,152 @@
+[
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Roses are red.",
+      "Violets are blue."
+    ],
+    "Hypothesis": [
+      "Roses that are not violets are red."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Cats generally like to drink milk.",
+      "Dogs generally don't like to drink milk"
+    ],
+    "Hypothesis": [
+      "Dogs that are not cats like to drink milk."
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Apples are generally red.",
+      "Oranges are generally not red."
+    ],
+    "Hypothesis": [
+      "Apples that are not oranges are red."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Coffee generally has caffeine.",
+      "Tea generally doesn't have caffeine. "
+    ],
+    "Hypothesis": [
+      "Tea that is not coffee doesn't have caffeine."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Trees are typically tall.",
+      "Houses are typically not tall."
+    ],
+    "Hypothesis": [
+      "Houses that are not trees are tall."
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Laptops are typically portable.",
+      "Desktops are typically not portable."
+    ],
+    "Hypothesis": [
+      "Laptops that are not desks are portable."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Dresses are typically for women.",
+      "Tuxedos are typically not for women."
+    ],
+    "Hypothesis": [
+      "Tuxedos that are not dresses are not for children."
+    ],
+    "Label": [
+      "Undetermined"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Toys are typically for children.",
+      "Guns are typically not for children."
+    ],
+    "Hypothesis": [
+      "Guns that are not toys are not for children."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Cows are typically docile.",
+      "Bulls are typically not docile."
+    ],
+    "Hypothesis": [
+      "Bulls that are not cows are docile."
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "One-Step Multiple Inheritance",
+    "logic_type_code": "B3",
+    "Premise": [
+      "Paint is typically colorful.",
+      "Ink is typically not colorful."
+    ],
+    "Hypothesis": [
+      "Paint that is not ink is colorful."
+    ],
+    "Label": [
+      "True"
+    ]
+  }
+]

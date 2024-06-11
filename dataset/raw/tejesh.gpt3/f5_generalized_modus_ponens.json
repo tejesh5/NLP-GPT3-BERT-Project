@@ -1,0 +1,877 @@
+﻿[
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All birds that can fly will soar in the sky.",
+            "John is a bird.",
+            "John can fly."
+        ],
+        "Hypothesis": [
+            "Therefore, John will soar in the sky."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are tired will sleep.",
+            "John is a human.",
+            "John is tired."
+        ],
+        "Hypothesis": [
+            "Therefore, John will sleep."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals who are sick will see a doctor.",
+            "John is an animal.",
+            "John is sick."
+        ],
+        "Hypothesis": [
+            "Therefore, John will see a doctor."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All cats that are hungry will eat food.",
+            "John is a cat.",
+            "John is hungry."
+        ],
+        "Hypothesis": [
+            "Therefore, John will eat food."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All students who are absent will get a zero on the test.",
+            "John is a student.",
+            "John was absent."
+        ],
+        "Hypothesis": [
+            "Therefore, John got a zero on the test."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All dogs that are trained will follow commands.",
+            "John is a dog.",
+            "John is trained."
+        ],
+        "Hypothesis": [
+            "Therefore, John will follow commands."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All birds that are afraid will fly away.",
+            "John is a bird.",
+            "John is afraid."
+        ],
+        "Hypothesis": [
+            "Therefore, John will fly away."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All dogs that are sick will see a doctor.",
+            "John is a dog.",
+            "John is sick."
+        ],
+        "Hypothesis": [
+            "Therefore, John will see a doctor."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All cats that are lazy will sleep all day.",
+            "John is a cat.",
+            "John is lazy."
+        ],
+        "Hypothesis": [
+            "Therefore, John will sleep all day."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are cold will put on a jacket.",
+            "John is a human.",
+            "John is cold."
+        ],
+        "Hypothesis": [
+            "Therefore, John will put on a jacket."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals who are thirsty will drink water.",
+            "John is an animal.",
+            "John is thirsty."
+        ],
+        "Hypothesis": [
+            "Therefore, John will drink water."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are sad will cry.",
+            "John is a human.",
+            "John is sad."
+        ],
+        "Hypothesis": [
+            "Therefore, John will cry."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All students who are late will get a detention.",
+            "John is a student.",
+            "John was late."
+        ],
+        "Hypothesis": [
+            "Therefore, John got a detention."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All birds that are happy will sing.",
+            "John is a bird.",
+            "John is happy."
+        ],
+        "Hypothesis": [
+            "Therefore, John will sing."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals who are awake will move.",
+            "John is an animal.",
+            "John is awake."
+        ],
+        "Hypothesis": [
+            "Therefore, John will move."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are bored will watch TV.",
+            "John is a human.",
+            "John is bored."
+        ],
+        "Hypothesis": [
+            "Therefore, Mike will watch TV."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All dogs that are trained will obey commands.",
+            "John is a dog.",
+            "John is trained."
+        ],
+        "Hypothesis": [
+            "Therefore, John will obey commands."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals who are afraid will run away.",
+            "John is an animal.",
+            "John is afraid."
+        ],
+        "Hypothesis": [
+            "Therefore, John will not run away."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All birds that are hungry will eat food.",
+            "John is a bird.",
+            "John is hungry."
+        ],
+        "Hypothesis": [
+            "Therefore, John will not eat food."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are tired will take a nap.",
+            "John is a human.",
+            "John is tired."
+        ],
+        "Hypothesis": [
+            "Therefore, Mike will not take a nap."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All students who are prepared will do well on the test.",
+            "John is a student.",
+            "John is prepared."
+        ],
+        "Hypothesis": [
+            "Therefore, John will not do well on the test."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals who are playful will play with toys.",
+            "John is an animal.",
+            "John is playful."
+        ],
+        "Hypothesis": [
+            "Therefore, John will play with toys."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals who are hungry will eat food.",
+            "John is an animal.",
+            "John is hungry."
+        ],
+        "Hypothesis": [
+            "Therefore, John will eat food."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are thirsty will drink water.",
+            "John is a human.",
+            "John is thirsty."
+        ],
+        "Hypothesis": [
+            "Therefore, John will drink water."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All dogs that are playful will fetch a ball.",
+            "John is a dog.",
+            "John is playful."
+        ],
+        "Hypothesis": [
+            "Therefore, John will fetch a ball."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All cats that are lazy will sleep all day.",
+            "John is a cat.",
+            "John is lazy."
+        ],
+        "Hypothesis": [
+            "Therefore, John will sleep all day."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All dogs that are trained will sit on command.",
+            "John is a dog.",
+            "John is trained."
+        ],
+        "Hypothesis": [
+            "Therefore, John will sit on command."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are cold will turn on the heat.",
+            "John is a human.",
+            "John is cold."
+        ],
+        "Hypothesis": [
+            "Therefore, John will turn on the heat."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All dogs that are playful will wag their tail.",
+            "John is a dog.",
+            "John is playful."
+        ],
+        "Hypothesis": [
+            "Therefore, John will wag his tail."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are sad will feel down.",
+            "John is a human.",
+            "John is sad."
+        ],
+        "Hypothesis": [
+            "Therefore, Mike will feel down."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All students who are smart will get good grades.",
+            "John is a student.",
+            "John is smart."
+        ],
+        "Hypothesis": [
+            "Therefore, John will not get good grades."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All cats that are playful will chase a toy.",
+            "John is a cat.",
+            "John is playful."
+        ],
+        "Hypothesis": [
+            "Therefore, Mike will chase a toy."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals who are awake will make noise.",
+            "John is an animal.",
+            "John is awake."
+        ],
+        "Hypothesis": [
+            "Therefore, John will not make noise."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are happy will smile.",
+            "John is a human.",
+            "John is happy."
+        ],
+        "Hypothesis": [
+            "Therefore, John will not smile."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All dogs that are trained will come when called.",
+            "John is a dog.",
+            "John is trained."
+        ],
+        "Hypothesis": [
+            "Therefore, John will not come when called."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All cats that are playful will pounce on a toy.",
+            "John is a cat.",
+            "John is playful."
+        ],
+        "Hypothesis": [
+            "Therefore, Mike will pounce on a toy."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are scared will feel fear.",
+            "John is a human.",
+            "John is scared."
+        ],
+        "Hypothesis": [
+            "Therefore, John will not feel fear."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All students who are lazy will not do their homework.",
+            "John is a student.",
+            "John is lazy."
+        ],
+        "Hypothesis": [
+            "Therefore, John will do his homework."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All dogs that are trained will stay on command.",
+            "John is a dog.",
+            "John is trained."
+        ],
+        "Hypothesis": [
+            "Therefore, John will stay on command."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All cats that are playful will bat at a toy.",
+            "John is a cat.",
+            "John is playful."
+        ],
+        "Hypothesis": [
+            "Therefore, John will bat at a toy."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All humans who are thirsty will drink water.",
+            "John is a human.",
+            "John is thirsty."
+        ],
+        "Hypothesis": [
+            "Therefore, John will drink water."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All dogs that are trained will lay down on command.",
+            "John is a dog.",
+            "John is trained."
+        ],
+        "Hypothesis": [
+            "Therefore, John will not lay down on command."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All cats that are playful will play with a toy.",
+            "John is a cat.",
+            "John is playful."
+        ],
+        "Hypothesis": [
+            "Therefore, John will play with a toy."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All trees that are taller than 20 feet are oak trees.",
+            "The tree in my backyard is taller than 20 feet."
+        ],
+        "Hypothesis": [
+            "Therefore, the tree in my backyard is not an oak tree."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals that have fur are mammals.",
+            "Dogs are animals.",
+            "Dogs have fur."
+        ],
+        "Hypothesis": [
+            "Therefore, dogs are mammals."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All birds that can fly are pigeons.",
+            "The bird in my backyard can fly."
+        ],
+        "Hypothesis": [
+            "Therefore, the bird in my backyard is a pigeon."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All rocks that are found in rivers are smooth.",
+            "I found the rock in the river."
+        ],
+        "Hypothesis": [
+            "Therefore, the rock I found in the river is not a smooth rock."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All liquids that are hot are steam.",
+            "The liquid in my cup is hot."
+        ],
+        "Hypothesis": [
+            "Therefore, the liquid in my cup is not steam."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All insects that can fly are bees.",
+            "The insect in my backyard can fly."
+        ],
+        "Hypothesis": [
+            "Therefore, the insect in my backyard is a bee."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals that are loved by humans are not endangered.",
+            "Dogs are animals.",
+            "Dogs are loved by humans."
+        ],
+        "Hypothesis": [
+            "Therefore, dogs are not endangered."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals that are not loved by humans are not pets.",
+            "Dogs are not loved by humans.",
+            "Dogs are animals."
+        ],
+        "Hypothesis": [
+            "Therefore, dogs are not pets."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals that are not pets are wild.",
+            "Dogs are not pets.",
+            "Dogs are animals."
+        ],
+        "Hypothesis": [
+            "Therefore, dogs are not wild."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals that are not loved by humans are not endangered.",
+            "Dogs are animals.",
+            "Dogs are not loved by humans."
+        ],
+        "Hypothesis": [
+            "Therefore, dogs are endangered."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals that are not loved by humans are not pets.",
+            "Dogs are animals.",
+            "Dogs are not loved by humans."
+        ],
+        "Hypothesis": [
+            "Therefore, dogs are pets."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "First Order Logic",
+        "logic_subtype": "Generalized Modus Ponens",
+        "logic_type_code": "F5",
+        "Premise": [
+            "All animals that are not pets are wild.",
+            "Dogs are animals.",
+            "Dogs are not pets."
+        ],
+        "Hypothesis": [
+            "Therefore, cats are wild."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    }
+]

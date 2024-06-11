@@ -1,0 +1,114 @@
+[
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "Machines which can move are called vehicles.",
+      "Car is a machine.",
+      "Cars can move.",
+       "Tesla X is a car.",
+      "Humans are not machines.",
+      "Humans can move.",
+      "Bikes are machines.",
+      "Bikes can move.",
+      "Yeti cycles are bikes."
+    ],
+    "Hypothesis": [
+      "Tesla X is a vehicle.",
+      "Humans are vehicles.",
+      "Yeti cycles are vehicles."
+    ],
+    "Label": [
+      "True",
+      "False",
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All employees who work get salary.",
+      "Managers are employees.",
+      "Managers work.",
+      "John is a manager.",
+      "Clerks get salary.",
+      "Clerks are employees.",
+      "David is a clerk."
+    ],
+    "Hypothesis": [
+      "John gets salary.",
+      "David does not work."
+    ],
+    "Label": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All professors have a PhD.",
+      "All professors teach at the school.",
+      "Drew teaches at school.",
+      "A headmaster does not teach at the school.",
+      "Lisa is a headmaster."
+    ],
+    "Hypothesis": [
+      "Drew has a PhD",
+      "Lisa is not a professor at the school."
+    ],
+    "Label": [
+      "True",
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All humans normally earn money.",
+      "Children are humans.",
+      "Children do not earn money.",
+      "Becky is a child",
+      "Child actors earn money.",
+      "Child actors are children.",
+      "Linda is a child actor"   
+    ],
+    "Hypothesis": [
+      "Humans other than children earn money.",
+      "Becky earns money.",
+      "Linda earns money."
+    ],
+    "Label": [
+      "True",
+      "False",
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Tree-Structured Inheritance",
+    "logic_type_code": "B2",
+    "Premise": [
+      "All doctors can heal.",
+      "A cardiologist heals heart ailments",
+      "Sam is a cardiologist.",
+      "A pediatrician heals children.",
+      "Jason is a pediatrician."
+    ],
+    "Hypothesis": [
+      "Sam is a doctor.",
+      "Jason is a doctor."
+    ],
+    "Label": [
+      "True",
+      "True"
+    ]
+  }
+]

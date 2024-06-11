@@ -1,0 +1,79 @@
+[
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If Jin is in Tempe, then Jin is in Arizona",
+      "If Jin is in Arizona, then Jin is in the United States"
+    ],
+    "Hypothesis": [
+      "Therefore, If Jin is in Tempe, then Jin is in United States"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If Eve is in San Francisco, then Eve is in California",
+      "If Eve is in California, then Eve is in the United States",
+      "California likes Texan Butter, then it has trade relations with Texas"
+    ],
+    "Hypothesis": [
+      "Therefore, If Eve is in Texas, then Eve is in United States"
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If Adam is good at Maths, then Adam is good at Computer Science",
+      "If Adam is good at Computer Science, then Adam is a good programmer"
+    ],
+    "Hypothesis": [
+      "Therefore Adam is good at Maths, then Adam is a good programmer"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If Jacob needs to buy groceries, then Jacob needs money",
+      "If Jacob needs money, then Jacob needs a paying job"
+    ],
+    "Hypothesis": [
+      "Therefore Jacob needs to buy groceries, then Jacob needs a paying job"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Propositional Logic",
+    "logic_subtype": "Hypothetical syllogism",
+    "logic_type_code": "P3",
+    "Premise": [
+      "If Joe study hard, then Joe will pass the NLP Exam",
+      "If Joe passes the NLP Exam, then Joe will also graduate"
+    ],
+    "Hypothesis": [
+      "Therefore Joe is a graduate, so he did study hard"
+    ],
+    "Label": [
+      "False"
+    ]
+  }
+]
+  

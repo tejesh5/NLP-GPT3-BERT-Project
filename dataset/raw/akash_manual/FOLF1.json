@@ -1,0 +1,73 @@
+[
+  {
+    "logic_type": "First Order Logic",
+    "logic_subtype": "Universal Generalization",
+    "logic_type_code": "F1",
+    "Premise": [
+      "A monkeys is a mammal"
+    ],
+    "Hypothesis": [
+      "All monkeys are mammals"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "First Order Logic",
+    "logic_subtype": "Universal Generalization",
+    "logic_type_code": "F1",
+    "Premise": [
+      "A barber cuts hair"
+    ],
+    "Hypothesis": [
+      "All barbers cut hair"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "First Order Logic",
+    "logic_subtype": "Universal Generalization",
+    "logic_type_code": "F1",
+    "Premise": [
+      "A plant is green"
+    ],
+    "Hypothesis": [
+      "All plants are green"
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "First Order Logic",
+    "logic_subtype": "Universal Generalization",
+    "logic_type_code": "F1",
+    "Premise": [
+      "A cats is an animal"
+    ],
+    "Hypothesis": [
+      "All cats are not animals"
+    ],
+    "Label": [
+      "False"
+    ]
+  },
+  {
+    "logic_type": "First Order Logic",
+    "logic_subtype": "Universal Generalization",
+    "logic_type_code": "F1",
+    "Premise": [
+      "A car has four wheels"
+    ],
+    "Hypothesis": [
+      "All cars have four wheels"
+    ],
+    "Label": [
+      "True"
+    ]
+  }
+]
+  

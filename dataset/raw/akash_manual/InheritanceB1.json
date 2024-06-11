@@ -1,0 +1,91 @@
+[
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Linear Inheritance",
+    "logic_type_code": "B1",
+    "Premise": [
+      "Machines which can move are called vehicles.",
+      "Car is a machine.",
+      "Cars can move.",
+      "Tesla X is a car.",
+      "Humans are not machines.",
+      "Humans can move."
+    ],
+    "Hypothesis": [
+      "Tesla X is a vehicle.",
+      "Humans are vehicles."
+    ],
+    "Label": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Linear Inheritance",
+    "logic_type_code": "B1",
+    "Premise": [
+      "All employees who work get salary.",
+      "Managers are employees.",
+      "Managers work.",
+      "John is a manager."
+    ],
+    "Hypothesis": [
+      "John gets salary."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Linear Inheritance",
+    "logic_type_code": "B1",
+    "Premise": [
+      "All professors have a PhD.",
+      "All professors teach at the school.",
+      "Drew is a professor."
+    ],
+    "Hypothesis": [
+      "Drew teaches at school."
+    ],
+    "Label": [
+      "True"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Linear Inheritance",
+    "logic_type_code": "B1",
+    "Premise": [
+      "Humans normally earn money.",
+      "Children are humans.",
+      "Children do not earn money.",
+      "Becky is a child"
+    ],
+    "Hypothesis": [
+      "Humans other than children earn money.",
+      "Becky earns money."
+    ],
+    "Label": [
+      "True",
+      "False"
+    ]
+  },
+  {
+    "logic_type": "Inheritance",
+    "logic_subtype": "Linear Inheritance",
+    "logic_type_code": "B1",
+    "Premise": [
+      "All doctors can heal.",
+      "A cardiologist heals heart ailments",
+      "Sam is a cardiologist."
+    ],
+    "Hypothesis": [
+      "Sam is a doctor."
+    ],
+    "Label": [
+      "True"
+    ]
+  }
+]

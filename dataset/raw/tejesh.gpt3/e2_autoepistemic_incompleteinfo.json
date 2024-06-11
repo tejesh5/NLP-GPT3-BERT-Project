@@ -1,0 +1,734 @@
+﻿[
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The cat is either on the mat or under the chair."
+        ],
+        "Hypothesis": [
+            "It is not known whether the cat is on the mat."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The cat is either on the mat or under the chair."
+        ],
+        "Hypothesis": [
+            "It is not known whether the cat is under the chair."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John will either go to the party or stay at home."
+        ],
+        "Hypothesis": [
+            "It is not known whether John will go to the party."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John will either go to the party or stay at home."
+        ],
+        "Hypothesis": [
+            "It is not known whether John will stay at home."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Either John or Bill will win the race."
+        ],
+        "Hypothesis": [
+            "It is not known whether John will win the race."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Either John or Bill will win the race."
+        ],
+        "Hypothesis": [
+            "It is not known whether Bill will win the race."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Either John or Bill will win the game."
+        ],
+        "Hypothesis": [
+            "Bill will win the game."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John is either a doctor or a lawyer."
+        ],
+        "Hypothesis": [
+            "It is not known whether John is a doctor."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John is either a doctor or a lawyer."
+        ],
+        "Hypothesis": [
+            "John is a doctor."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John is either a doctor or a lawyer."
+        ],
+        "Hypothesis": [
+            "It is known that John is a lawyer."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John will either pass or fail the test."
+        ],
+        "Hypothesis": [
+            "It is not known whether John will pass the test."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John will either pass or fail the test."
+        ],
+        "Hypothesis": [
+            "It is known that John will fail the test."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The ball is either red or blue."
+        ],
+        "Hypothesis": [
+            "It is not known whether the ball is red."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The ball is either red or blue."
+        ],
+        "Hypothesis": [
+            "It is not known whether the ball is blue."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John will either go to the movies or stay home."
+        ],
+        "Hypothesis": [
+            "It is not known whether John will go to the movies."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John will either go to the movies or stay home."
+        ],
+        "Hypothesis": [
+            "John will stay home."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John will either go to the movies or stay home."
+        ],
+        "Hypothesis": [
+            "It is known that John will go to the movies."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Some of the animals can fly."
+        ],
+        "Hypothesis": [
+            "Butterflies can fly."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The cat is either black or white."
+        ],
+        "Hypothesis": [
+            "The cat is black."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The cat is either black or white."
+        ],
+        "Hypothesis": [
+            "The cat is not black."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The cat is either black or white."
+        ],
+        "Hypothesis": [
+            "It is not known whether the cat is white."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John is taller than Bill"
+        ],
+        "Hypothesis": [
+            "Bill is shorter than anyone in his class."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John is taller than Bill"
+        ],
+        "Hypothesis": [
+            "Bill is taller than John."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The cat is either black or white."
+        ],
+        "Hypothesis": [
+            "The cat is black and white."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John will go to work on either Tuesday or Wednesday"
+        ],
+        "Hypothesis": [
+            "John will go to work on Tuesday and Wednesday."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "One of the blocks A or B is on the floor."
+        ],
+        "Hypothesis": [
+            "A and B are not on the floor."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John is taller than Bill"
+        ],
+        "Hypothesis": [
+            "John is shorter than Bill."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John is taller than Bill"
+        ],
+        "Hypothesis": [
+            "John is taller than anyone in his class and Bill is shorter than anyone in his class."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The cat is either black or white."
+        ],
+        "Hypothesis": [
+            "The cat is not black and not white."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "John will go to work on either Tuesday or Wednesday"
+        ],
+        "Hypothesis": [
+            "John will go to work on Tuesday or not go to work on Wednesday."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "One of the blocks A or B is on the floor."
+        ],
+        "Hypothesis": [
+            "Neither A nor B is on the floor."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "One of the blocks A or B is on the floor."
+        ],
+        "Hypothesis": [
+            "It is not known whether A is on the floor."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The grass gets wet if it has rained or if someone watered them.",
+            "The grass is not wet."
+        ],
+        "Hypothesis": [
+            "It has rained."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Cameron is either in the Navy or he is a doctor.",
+            "Cameron is not a doctor."
+        ],
+        "Hypothesis": [
+            "Cameron is in the Navy."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Cameron is either in the Navy or he is a doctor.",
+            "Cameron is in the Navy."
+        ],
+        "Hypothesis": [
+            "Cameron is not a doctor."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Cameron is either in the Navy or he is a doctor.",
+            "Cameron is not in the Navy."
+        ],
+        "Hypothesis": [
+            "Cameron is not a doctor."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "At least one of the students A or B is failing the class."
+        ],
+        "Hypothesis": [
+            "It is not known whether A is failing the class."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Either John or Bill will get the job."
+        ],
+        "Hypothesis": [
+            "It is not known whether Bill will get the job."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Either John or Bill will get the job."
+        ],
+        "Hypothesis": [
+            "It is known that Bill will get the job."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "At least one of the birds A or B is in the cage."
+        ],
+        "Hypothesis": [
+            "It is not known whether A is in the cage."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Either John or Bill will get the promotion."
+        ],
+        "Hypothesis": [
+            "It is not known whether Bill will get the promotion."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "At least one of the pieces A or B is on the board."
+        ],
+        "Hypothesis": [
+            "It is not known whether A is on the board."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "The cat is either on the windowsill or under the sink."
+        ],
+        "Hypothesis": [
+            "It is not known whether the cat is on the windowsill."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "At least one of the books A or B is on the shelf."
+        ],
+        "Hypothesis": [
+            "It is not known whether A is on the shelf."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Either John or Bill will get the scholarship."
+        ],
+        "Hypothesis": [
+            "It is not known whether Bill will get the scholarship."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "At least one of the keys A or B is in the lock."
+        ],
+        "Hypothesis": [
+            "It is not known whether A is in the lock."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "At least one of the keys A or B is in the lock."
+        ],
+        "Hypothesis": [
+            "Key A is in the lock."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Either John or Bill will get the ticket."
+        ],
+        "Hypothesis": [
+            "It is not known whether Bill will get the ticket."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Either John or Bill will get the ticket."
+        ],
+        "Hypothesis": [
+            "It is known that Bill will get the ticket."
+        ],
+        "Label": [
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "At least one of the plates A or B is in the dishwasher."
+        ],
+        "Hypothesis": [
+            "It is not known whether A is in the dishwasher."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "At least one of the cups A or B is in the cabinet."
+        ],
+        "Hypothesis": [
+            "It is not known whether A is in the cabinet."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Reasoning with Incomplete Information",
+        "logic_type_code": "E2",
+        "Premise": [
+            "Either John or Bill will get the gift."
+        ],
+        "Hypothesis": [
+            "It is known that Bill will get the gift."
+        ],
+        "Label": [
+            "False"
+        ]
+    }
+]

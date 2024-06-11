@@ -1,0 +1,83 @@
+﻿[
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Blocks that are not known to be heavy are on the floor.",
+            "Block A is heavy."
+        ],
+        "Hypothesis": [
+            "Block B is on the floor.",
+            "Block A is on the floor."
+        ],
+        "Label": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are not known to have a driving license are not allowed to drive.",
+            "John has a driving license."
+        ],
+        "Hypothesis": [
+            "Mike is not allowed to drive."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Different people normally have different fathers.",
+            "John and Mike have the same father."
+        ],
+        "Hypothesis": [
+            "Sam and Kevin have different fathers."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "Students who are known to be studying will get good grades.",
+            "John studies."
+        ],
+        "Hypothesis": [
+            "Mike did not get good grades.",
+            "John did not get good grades."
+        ],
+        "Label": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Autoepistemic Default Reasoning",
+        "logic_type_code": "E4",
+        "Premise": [
+            "People who are known to have received a raise will go on a vacation.",
+            "John got a raise."
+        ],
+        "Hypothesis": [
+            "Mike did not go on a vacation.",
+            "John will go on a vacation."
+        ],
+        "Label": [
+            "True",
+            "True"
+        ]
+    }
+]

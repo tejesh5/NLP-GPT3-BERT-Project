@@ -1,0 +1,74 @@
+﻿[
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Block B is on the floor."
+        ],
+        "Hypothesis": [
+            "It is not known whether A is on the floor."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Alexander Graham Bell invented the telephone."
+        ],
+        "Hypothesis": [
+            "It is not known whether Thomas Edison invented the wheel.",
+            "It is known that Thomas Edison invented the telephone."
+        ],
+        "Label": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "All animals do not fly."
+        ],
+        "Hypothesis": [
+            "Birds can fly."
+        ],
+        "Label": [
+            "Undetermined"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "Ostriches are birds."
+        ],
+        "Hypothesis": [
+            "It is not known whether eagles are birds."
+        ],
+        "Label": [
+            "True"
+        ]
+    },
+    {
+        "logic_type": "Autoepistemic Reasoning",
+        "logic_subtype": "Basic Autoepistemic Reasoning",
+        "logic_type_code": "E1",
+        "Premise": [
+            "John and Mark have the same father."
+        ],
+        "Hypothesis": [
+            "It is not known whether Sam and Kevin have the same father."
+        ],
+        "Label": [
+            "True"
+        ]
+    }
+]
